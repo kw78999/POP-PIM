@@ -1,0 +1,63 @@
+{
+ "description": "External (host) Top-k service times used by the S-path designs. GPU is an assumption, not a measurement. CPU values are medians of 30 timed repetitions (10 warm-up) of tools/bench/host_topk.cpp: 8 threads, spawn/join included, nth_element + final sort + index sort, stable BF16 order (score descending, index ascending, +0 == -0), membership checked against the replay expected indices. Measured on the development host; re-measure with tools.measure_host_topk on your own machine. The simulator uses cpu_measured (first idle repetition); cpu_repeat is a second idle repetition kept for variability.",
+ "gpu_assumed_ms": 0.2,
+ "cpu_retained_per_head_ms": {
+  "value": 3.03572,
+  "rows": 32,
+  "N": 32768,
+  "K": 4096,
+  "note": "Earlier per-head CPU measurement used by the per-bank refresh study of POP_S_CPU (refresh-policy reference set)."
+ },
+ "cpu_measured": [
+  {
+   "rows": 32,
+   "N": 32768,
+   "K": 4096,
+   "threads": 8,
+   "median_ms": 2.78676,
+   "p95_ms": 5.52296
+  },
+  {
+   "rows": 8,
+   "N": 32768,
+   "K": 4096,
+   "threads": 8,
+   "median_ms": 0.778347,
+   "p95_ms": 0.815556
+  },
+  {
+   "rows": 8,
+   "N": 32768,
+   "K": 6144,
+   "threads": 8,
+   "median_ms": 1.04787,
+   "p95_ms": 1.08029
+  }
+ ],
+ "cpu_repeat": [
+  {
+   "rows": 32,
+   "N": 32768,
+   "K": 4096,
+   "threads": 8,
+   "median_ms": 2.81474,
+   "p95_ms": 4.61751
+  },
+  {
+   "rows": 8,
+   "N": 32768,
+   "K": 4096,
+   "threads": 8,
+   "median_ms": 0.791311,
+   "p95_ms": 1.74596
+  },
+  {
+   "rows": 8,
+   "N": 32768,
+   "K": 6144,
+   "threads": 8,
+   "median_ms": 1.05376,
+   "p95_ms": 2.47643
+  }
+ ]
+}

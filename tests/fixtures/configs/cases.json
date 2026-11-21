@@ -1,0 +1,65 @@
+{
+ "POP_S_CPU_POP-PIM-S_bw5.2": {
+  "design": "POP_S_CPU",
+  "variant": "gs4096_vs005h_ct",
+  "bandwidth": 5.2,
+  "refresh": "per-bank",
+  "context": 32768,
+  "link_GBs": 32.0,
+  "source": "development bandwidth-sweep runs"
+ },
+ "D8_bw41.6": {
+  "design": "D8",
+  "variant": "base",
+  "bandwidth": 41.6,
+  "refresh": "per-bank",
+  "context": 32768,
+  "link_GBs": 32.0,
+  "source": "development bandwidth-sweep runs"
+ },
+ "POP_E24P32_gs6144_vs002h_bw10.4": {
+  "design": "POP_E24P32",
+  "variant": "gs6144_vs002h",
+  "bandwidth": 10.4,
+  "refresh": "per-bank",
+  "context": 32768,
+  "link_GBs": 32.0,
+  "source": "development byte-frugal ablation runs"
+ },
+ "POP_S_GPU_gs6144_vs002_bw41.6_link0.5": {
+  "design": "POP_S_GPU",
+  "variant": "gs6144_vs002",
+  "bandwidth": 41.6,
+  "refresh": "per-bank",
+  "context": 32768,
+  "link_GBs": 0.5,
+  "source": "development byte-frugal ablation runs"
+ },
+ "D1_bw41.6_all-bank": {
+  "design": "D1",
+  "variant": "base",
+  "bandwidth": 41.6,
+  "refresh": "all-bank",
+  "context": 32768,
+  "link_GBs": 32.0,
+  "source": "development refresh-policy runs"
+ },
+ "D4_bw41.6_per-bank-relaxed_n131072": {
+  "design": "D4",
+  "variant": "base",
+  "bandwidth": 41.6,
+  "refresh": "per-bank-relaxed",
+  "context": 131072,
+  "link_GBs": 32.0,
+  "source": "development refresh-policy runs"
+ },
+ "POP_E4P4_POP-PIM_bw41.6_off": {
+  "design": "POP_E4P4",
+  "variant": "base",
+  "bandwidth": 41.6,
+  "refresh": "off",
+  "context": 32768,
+  "link_GBs": 32.0,
+  "source": "development refresh-policy runs"
+ }
+}

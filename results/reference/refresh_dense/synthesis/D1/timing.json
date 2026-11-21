@@ -1,0 +1,87 @@
+[
+  {
+    "frequency_MHz": 125,
+    "slack_ns": 5.588491,
+    "passed": true
+  },
+  {
+    "frequency_MHz": 150,
+    "slack_ns": 4.255158,
+    "passed": true
+  },
+  {
+    "frequency_MHz": 162.5,
+    "slack_ns": 3.742338,
+    "passed": true
+  },
+  {
+    "frequency_MHz": 250,
+    "slack_ns": 1.588492,
+    "passed": true
+  },
+  {
+    "frequency_MHz": 500,
+    "slack_ns": -0.411508,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 800.0,
+    "slack_ns": -1.161508,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 412.5,
+    "slack_ns": 0.012734,
+    "passed": true
+  },
+  {
+    "frequency_MHz": 606.25,
+    "slack_ns": -0.762024,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 509.375,
+    "slack_ns": -0.448318,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 460.9375,
+    "slack_ns": -0.242017,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 436.71875,
+    "slack_ns": -0.121705,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 424.609375,
+    "slack_ns": -0.056402,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 418.5546875,
+    "slack_ns": -0.022334,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 415.52734375,
+    "slack_ns": -0.004928,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 414.013671875,
+    "slack_ns": 0.003871,
+    "passed": true
+  },
+  {
+    "frequency_MHz": 414.7705078125,
+    "slack_ns": -0.000536,
+    "passed": false
+  },
+  {
+    "frequency_MHz": 414.39208984375,
+    "slack_ns": 0.001665,
+    "passed": true
+  }
+]

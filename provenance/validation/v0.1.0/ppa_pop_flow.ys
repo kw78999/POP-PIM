@@ -1,0 +1,18 @@
+read_verilog -sv -I/workspace/PopPIM/third_party/hardfloat/source -I/workspace/PopPIM/third_party/hardfloat/source/RISCV /workspace/PopPIM/third_party/hardfloat/source/HardFloat_primitives.v /workspace/PopPIM/third_party/hardfloat/source/HardFloat_rawFN.v /workspace/PopPIM/third_party/hardfloat/source/isSigNaNRecFN.v /workspace/PopPIM/third_party/hardfloat/source/fNToRecFN.v /workspace/PopPIM/third_party/hardfloat/source/recFNToFN.v /workspace/PopPIM/third_party/hardfloat/source/iNToRecFN.v /workspace/PopPIM/third_party/hardfloat/source/recFNToRecFN.v /workspace/PopPIM/third_party/hardfloat/source/mulAddRecFN.v /workspace/PopPIM/third_party/hardfloat/source/RISCV/HardFloat_specialize.v /workspace/PopPIM/rtl/primitives/popcount32.sv /workspace/PopPIM/rtl/primitives/bitwise_count.sv /workspace/PopPIM/rtl/scoring/bf16_fma_pipeline.sv /workspace/PopPIM/rtl/scoring/bf16_conversions.sv /workspace/PopPIM/rtl/scoring/score7_group.sv /workspace/PopPIM/rtl/scoring/score7_top.sv /workspace/PopPIM/rtl/gqa/metadata_tile_stream_gqa4.sv /workspace/PopPIM/rtl/gqa/tile_allocator_gqa4.sv /workspace/PopPIM/rtl/gqa/head_score_router_gqa4.sv /workspace/PopPIM/rtl/gqa/gqa4_frontend.sv /workspace/PopPIM/rtl/bank/gqa4_score_bank.sv
+hierarchy -check -top gqa4_score_bank
+proc
+opt
+memory_dff
+memory_collect
+memory_map
+opt
+synth -noshare -top gqa4_score_bank
+flatten
+opt
+dfflibmap -liberty /workspace/PopPIM/third_party/nangate45/NangateOpenCellLibrary_typical.lib
+abc -exe /workspace/POP-PIM/build/phase6/tools/root/usr/bin/berkeley-abc -liberty /workspace/PopPIM/third_party/nangate45/NangateOpenCellLibrary_typical.lib -constr /workspace/PopPIM/outputs/ppa_pop/synthesis/FullBank/abc.constr
+clean -purge
+splitnets -ports
+stat -liberty /workspace/PopPIM/third_party/nangate45/NangateOpenCellLibrary_typical.lib
+write_json /workspace/PopPIM/outputs/ppa_pop/synthesis/FullBank/mapped.json
+write_verilog -noattr -noexpr /workspace/PopPIM/outputs/ppa_pop/synthesis/FullBank/mapped.v

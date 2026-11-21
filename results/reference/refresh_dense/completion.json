@@ -1,0 +1,13 @@
+{
+  "status": "Complete",
+  "time_kst": "2026-10-30T20:25:49.395647+09:00",
+  "RTL_outputs": 79872,
+  "RTL_modes": 24,
+  "system_runs": 27,
+  "validation_checks": 289,
+  "bundle": "results/phase18_D16_D32_review.zip",
+  "bundle_sha256": "7f74bace97c1f4a1d1df8bc562b6f68fb8cb871204687d8a216aa8978c7cd052",
+  "scope": "Actual port-constrained RTL plus synthesis/STA; exact finite-tile calibrated architectural attention, not silicon",
+  "total_chip_area": "Unknown",
+  "total_energy": "Unknown"
+}

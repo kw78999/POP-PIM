@@ -1,0 +1,11 @@
+PROGRESS context=32768 budget=4096 score_percent=24.6216 elapsed_s=9.26497 score_remaining_estimate_s=28.3645 selected_backend=0 hbm_cycles=5000000
+PROGRESS context=32768 budget=4096 score_percent=49.1943 elapsed_s=18.367 score_remaining_estimate_s=18.9686 selected_backend=0 hbm_cycles=10000000
+PROGRESS context=32768 budget=4096 score_percent=73.3673 elapsed_s=27.3906 score_remaining_estimate_s=9.94292 selected_backend=0 hbm_cycles=15000000
+PROGRESS context=32768 budget=4096 score_percent=92.0349 elapsed_s=34.0149 score_remaining_estimate_s=2.94379 selected_backend=0 hbm_cycles=20000000
+MemorySystem:
+  impl: GenericDRAM
+  total_num_other_requests: 0
+  total_num_write_requests: 0
+  total_num_read_requests: 4194304
+  memory_system_cycles: 23699008
+

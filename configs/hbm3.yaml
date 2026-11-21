@@ -1,0 +1,22 @@
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+  DRAM:
+    impl: Phase20HBM3
+    org:
+      preset: HBM3_8Gb_2R
+      channel: 1
+    timing:
+      preset: HBM3_5.2Gbps
+  Controller:
+    impl: PopPIMHBM3
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: @REFRESH@
+    plugins:
+    - ControllerPlugin:
+        impl: Phase13Commands
+        trace_file: @TRACE@
+  AddrMapper:
+    impl: HBM3-Custom

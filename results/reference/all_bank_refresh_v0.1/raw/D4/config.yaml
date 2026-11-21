@@ -1,0 +1,36 @@
+Frontend:
+  impl: "Phase13Common"
+  output: "/workspace/PopPIM/outputs/main_refresh/D4"
+  design: "D4"
+  mode: "full"
+  replicas: 1
+  coupled_release: false
+  context_length: 32768
+  budget: 4096
+  ii: 38
+  latency: 63
+  tile_schedule: "/workspace/PopPIM/data/calibration/schedules/D4.txt"
+  selector_engines: 4
+  selector_ports: 4
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+  DRAM:
+    impl: Phase17HBM3
+    org:
+      preset: HBM3_8Gb_2R
+      channel: 1
+    timing:
+      preset: HBM3_5.2Gbps
+  Controller:
+    impl: PopPIMHBM3
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBankHBM3
+    plugins:
+    - ControllerPlugin:
+        impl: Phase13Commands
+        trace_file: "/workspace/PopPIM/outputs/main_refresh/D4/command_trace.bin"
+  AddrMapper:
+    impl: HBM3-Custom

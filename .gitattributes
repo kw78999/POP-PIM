@@ -1,0 +1,7 @@
+# Preserve exact byte hashes, including upstream files with CRLF endings.
+* -text
+*.bin binary
+*.png binary
+*.pdf binary
+*.bits binary
+*.svg binary

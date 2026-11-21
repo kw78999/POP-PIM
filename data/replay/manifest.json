@@ -1,0 +1,16 @@
+{
+  "format": "Little endian; scores [32,32768] uint16 BF16 bits; indices [32,4096] int32",
+  "files": {
+    "data/replay/topk_indices_i32.bin": "56eb2dc911c0640546d57d3979aff79632072ec9aa545929f7f03835a6393a77",
+    "data/replay/scores_bf16.bin": "4297bdaf0faf2083b0bec51f747270ce9fa792b65a421ba062988a4f819a229e"
+  },
+  "source": "Preserved BF16 retrieval scores from the development PopKV/PG19 trace; same fixed replay used by the architectural studies",
+  "scope": "Single fixed layer/query architectural replay; no model weights, corpus text or token IDs; no native long-context quality claim",
+  "expected_order": "Selected indices sorted by token position; stable ranking is score descending, index ascending",
+  "capture_record": "provenance/replay_capture.json",
+  "selection_policy": "Native exact K4096 over all scores; no forced-current token; architectural service replay",
+  "metadata_groups": {
+    "token_group_size": 64,
+    "dimension_group_size": 64
+  }
+}

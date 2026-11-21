@@ -1,0 +1,1 @@
+{"outputs":1024,"cycles":29596,"issues":263324,"completes":263259,"lanes":32,"requests_per_score":256,"output_stall_cycles":3038,"input_stall_cycles":10735,"resets":3,"bit_exact":true}

@@ -1,0 +1,19 @@
+{
+  "design": "D8",
+  "mac_instances": 8,
+  "contexts": 2,
+  "total_cell_area_um2": 52117.64600000187,
+  "datapath_area_um2": 19781.887999999173,
+  "fma_pipeline_register_area_um2": 4051.711999999961,
+  "register_area_um2": 18712.035999999825,
+  "control_mux_area_um2": 13623.721999999532,
+  "flip_flops": 4138,
+  "fmax_pass_MHz": 397.74169921875,
+  "fmax_fail_MHz": 398.1201171875,
+  "slack_125_ns": 5.488143,
+  "timing_pass_125": true,
+  "within_A2_area_budget": false,
+  "blackboxes": 0,
+  "library_sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+  "evidence": "Actual RTL Synthesis / Pre-layout STA"
+}

@@ -1,0 +1,9 @@
+PROGRESS context=32768 budget=4096 score_percent=96.4615 elapsed_s=8.60252 score_remaining_estimate_s=0.315568 selected_backend=0 hbm_cycles=5000000
+PROGRESS context=32768 budget=4096 score_percent=100 elapsed_s=12.9375 score_remaining_estimate_s=0 selected_backend=1 hbm_cycles=10000000
+MemorySystem:
+  impl: GenericDRAM
+  total_num_other_requests: 0
+  total_num_write_requests: 0
+  total_num_read_requests: 1551392
+  memory_system_cycles: 12521603
+

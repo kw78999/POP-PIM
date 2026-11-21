@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "heads": 32,
+  "context": 32768,
+  "budget": 4096,
+  "tie_rule": "score descending, index ascending",
+  "files": {
+    "data/replay/scores_bf16.bin": "4297bdaf0faf2083b0bec51f747270ce9fa792b65a421ba062988a4f819a229e",
+    "data/replay/topk_indices_i32.bin": "56eb2dc911c0640546d57d3979aff79632072ec9aa545929f7f03835a6393a77"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "git_upload_candidate_files": 747,
+  "blob_bytes_preserved": 747,
+  "missing_files": [],
+  "unexpected_files": [],
+  "note": "Temporary external Git index only; no project repository, commit or remote created"
+}

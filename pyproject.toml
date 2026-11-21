@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poppim"
+version = "0.2.0"
+description = "POP-PIM: popcount retrieval near HBM banks with byte-frugal sparse attention (POP-PIM-S/Q); models, RTL and reproducible simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "matplotlib>=3.7,<4"]
+
+[project.urls]
+Repository = "https://github.com/kw78999/POP-PIM"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+# Only for experiments/quality and experiments/replay (not needed for the simulator):
+quality = ["torch>=2.1", "transformers>=4.45", "accelerate>=0.30"]
+
+[tool.setuptools.packages.find]
+include = ["poppim*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

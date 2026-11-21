@@ -1,0 +1,114 @@
+[
+  {
+    "design": "D32",
+    "frequency_MHz": 125,
+    "slack_ns": 5.006821,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 150,
+    "slack_ns": 3.673488,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 200,
+    "slack_ns": 2.006821,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 250,
+    "slack_ns": 1.006821,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 300,
+    "slack_ns": 0.340154,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 412.5,
+    "slack_ns": -0.568936,
+    "timing_pass": false,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 218.75,
+    "slack_ns": 1.57825,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 315.625,
+    "slack_ns": 0.175138,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 364.0625,
+    "slack_ns": -0.246398,
+    "timing_pass": false,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 339.84375,
+    "slack_ns": -0.05065,
+    "timing_pass": false,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 327.734375,
+    "slack_ns": 0.058073,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 333.7890625,
+    "slack_ns": 0.002725,
+    "timing_pass": true,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 336.81640625,
+    "slack_ns": -0.024202,
+    "timing_pass": false,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 335.302734375,
+    "slack_ns": -0.010799,
+    "timing_pass": false,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 334.5458984375,
+    "slack_ns": -0.004053,
+    "timing_pass": false,
+    "evidence": "Pre-layout STA"
+  },
+  {
+    "design": "D32",
+    "frequency_MHz": 334.16748046875,
+    "slack_ns": -0.000667,
+    "timing_pass": false,
+    "evidence": "Pre-layout STA"
+  }
+]

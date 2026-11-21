@@ -1,0 +1,28 @@
+{
+ "context": 32768,
+ "tokens": 64,
+ "blocks": "0,1,2,3",
+ "methods": "full,ph:4096,gs:4096,gs:6144,gs:4096:vs:0.005,gs:6144:vs:0.002",
+ "metric_every": 32,
+ "out": "outputs/quality",
+ "chunk": 4096,
+ "model": "meta-llama/Llama-3.1-8B",
+ "stream_tokens": 228912,
+ "metric_grid": [
+  "ph:1024",
+  "ph:2048",
+  "ph:4096",
+  "gs:2048",
+  "gs:4096",
+  "gs:6144",
+  "gs:8192",
+  "gs:4096:vs:0.002",
+  "gs:4096:vs:0.005",
+  "gs:4096:vs:0.01",
+  "gs:6144:vs:0.002",
+  "gs:6144:vs:0.005",
+  "gs:6144:vs:0.01",
+  "ph:4096:vs:0.002",
+  "oracle:4096"
+ ]
+}

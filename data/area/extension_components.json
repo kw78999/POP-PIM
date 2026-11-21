@@ -1,0 +1,246 @@
+{
+ "description": "Mapped-cell and SRAM components used by tools.area_model. Logic: Yosys 0.9 + ABC to Nangate45 typical (BUF_X1 drive, 5 fF load, synth -noshare), cell areas summed from the Liberty file; pre-layout OpenSTA 2.0.17 (50 ps uncertainty, 100 ps I/O delay). SRAM: CACTI 45 nm itrs-hp, retained 1R1W/4-byte-block configuration (data/area/cacti/phase14/itrs-hp_4096/cache.cfg) with only the capacity changed. Regenerate with tools.synthesize_dense, tools.synthesize_pop, tools.synthesize_extensions and tools.reproduce_cacti. RTL hashes refer to the released files. The GS, VS, staging and refresh-scheduler files had their comments edited after synthesis; resynthesis of the released files reproduced every recorded area (provenance/validation/synthesis_extensions_after_comment_cleanup.json).",
+ "liberty_sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+ "dense_scorer_16B_port": {
+  "D1": {
+   "cell_area_um2": 8392.56599999996,
+   "flip_flops": 724,
+   "fmax_pass_MHz": 415.14892578125,
+   "slack_125MHz_ns": 5.592494,
+   "timing_pass_125MHz": true
+  },
+  "D2": {
+   "cell_area_um2": 14862.750000000133,
+   "flip_flops": 1216,
+   "fmax_pass_MHz": 410.60791015625,
+   "slack_125MHz_ns": 5.565889,
+   "timing_pass_125MHz": true
+  },
+  "D4": {
+   "cell_area_um2": 27269.521999999848,
+   "flip_flops": 2194,
+   "fmax_pass_MHz": 399.25537109375,
+   "slack_125MHz_ns": 5.497058,
+   "timing_pass_125MHz": true
+  },
+  "D8": {
+   "cell_area_um2": 52117.64600000187,
+   "flip_flops": 4138,
+   "fmax_pass_MHz": 397.74169921875,
+   "slack_125MHz_ns": 5.488143,
+   "timing_pass_125MHz": true
+  },
+  "D16": {
+   "cell_area_um2": 104773.67599994951,
+   "flip_flops": 8582,
+   "fmax_pass_MHz": 364.0625,
+   "slack_125MHz_ns": 5.255385,
+   "timing_pass_125MHz": true
+  },
+  "D32": {
+   "cell_area_um2": 207663.00800008632,
+   "flip_flops": 16775,
+   "fmax_pass_MHz": 333.7890625,
+   "slack_125MHz_ns": 5.006821,
+   "timing_pass_125MHz": true
+  }
+ },
+ "pop_score_bank": {
+  "rtl": "rtl/bank/gqa4_score_bank.sv",
+  "top": "gqa4_score_bank",
+  "cell_area_um2": 134344.3639999609,
+  "flip_flops": 11929,
+  "slack_125MHz_ns": 5.330049,
+  "scope": "Actual A2+32-head query mux+GQA4 metadata ownership+8KV allocator+global32-head router; external Q storage/response queues/selector/CDC/clock/layout excluded"
+ },
+ "refresh_scheduler": {
+  "rtl": "rtl/refresh/pim_refresh_sched.sv",
+  "variants": {
+   "round_H2": {
+    "params": {
+     "NREFI": 5070,
+     "P": 8,
+     "U": 8,
+     "H": 2,
+     "LOW": 5,
+     "ROUND": 1
+    },
+    "cell_area_um2": 10425.338000000274,
+    "flip_flops": 533,
+    "cells": 7262,
+    "fmax_pass_MHz": 302.734375,
+    "slack_125MHz_ns": 4.699215,
+    "slack_250MHz_ns": 0.699215,
+    "rtl_sha256": "dc726e1a42eb468c0a6745afafac2664d0420c7c312c2f26c3e1edaa914322d4"
+   },
+   "round_H6": {
+    "params": {
+     "NREFI": 5070,
+     "P": 8,
+     "U": 8,
+     "H": 6,
+     "LOW": 1,
+     "ROUND": 1
+    },
+    "cell_area_um2": 10409.644000000282,
+    "flip_flops": 533,
+    "cells": 7338,
+    "fmax_pass_MHz": 298.876953125,
+    "slack_125MHz_ns": 4.663424,
+    "slack_250MHz_ns": 0.663424,
+    "rtl_sha256": "dc726e1a42eb468c0a6745afafac2664d0420c7c312c2f26c3e1edaa914322d4"
+   },
+   "relaxed_H2": {
+    "params": {
+     "NREFI": 5070,
+     "P": 8,
+     "U": 8,
+     "H": 2,
+     "LOW": 0,
+     "ROUND": 0
+    },
+    "cell_area_um2": 10211.474000000218,
+    "flip_flops": 469,
+    "cells": 7294,
+    "fmax_pass_MHz": 319.12841796875,
+    "slack_125MHz_ns": 4.872268,
+    "slack_250MHz_ns": 0.872267,
+    "rtl_sha256": "dc726e1a42eb468c0a6745afafac2664d0420c7c312c2f26c3e1edaa914322d4"
+   }
+  },
+  "scope": "Per-bank refresh decision logic (obligation counters, drain hysteresis, round state, 64-way priority select)"
+ },
+ "s_path_staging": {
+  "rtl": "rtl/transport/score_stream_interface.sv",
+  "top": "score_stream_interface",
+  "cell_area_um2": 41321.50400000227,
+  "flip_flops": 5312,
+  "slack_250MHz_ns": 3.37242,
+  "rtl_sha256": "75003b2b4d1f7aa89971e128c86aa7e036559fe3c4b23a164eecd75aa72013ad",
+  "scope": "4-lane holding FIFO16 + DMA staging FIFO4 per lane (S path); shared DMA arbitration/link PHY/CDC excluded"
+ },
+ "gs_unit": {
+  "rtl": "rtl/gs/gs_shared_score.sv",
+  "scope": "GS unit per bank: 2-tile x 4-token partial-sum table, 2 BF16 FMA adders, exact BF16 x0.25 unit, 4-entry output FIFO",
+  "top": "gs_shared_score",
+  "params": {},
+  "cell_area_um2": 11725.546000000082,
+  "flip_flops": 946,
+  "cells": 6475,
+  "slack_125MHz_ns": 5.556944,
+  "slack_250MHz_ns": 1.556945,
+  "fmax_pass_MHz": 408.8134765625,
+  "rtl_sha256": {
+   "gs_shared_score.sv": "b6b04cd32cca17bc809ee13fae4f4ccd0244e1d208b93bf38e52c9581e7561fa"
+  }
+ },
+ "vs_engine": {
+  "rtl": "rtl/vs/vs_mass_threshold.sv",
+  "scope": "VS engine per KV head, logic only (histogram and bin-code SRAMs are separate CACTI macros)",
+  "top": "vs_mass_threshold",
+  "params": {
+   "RW": 13
+  },
+  "cell_area_um2": 25977.293999997386,
+  "flip_flops": 450,
+  "cells": 20686,
+  "slack_125MHz_ns": 0.394921,
+  "slack_250MHz_ns": -3.60508,
+  "fmax_pass_MHz": 131.0791015625,
+  "rtl_sha256": {
+   "vs_mass_threshold.sv": "b377fd0626b285659669f4a3b9b3f10355adbe6e3f74b921be04fd31fe7eb637"
+  }
+ },
+ "staging_w64": {
+  "rtl": "rtl/transport/score_stream_interface_w.sv",
+  "scope": "S-path staging, 64-bit tagged packet (W=64)",
+  "top": "score_stream_interface_w",
+  "params": {
+   "W": 64
+  },
+  "cell_area_um2": 41016.136000001694,
+  "flip_flops": 5312,
+  "cells": 15728,
+  "slack_125MHz_ns": 7.417961,
+  "slack_250MHz_ns": 3.41796,
+  "fmax_pass_MHz": 1716.4794921875,
+  "rtl_sha256": {
+   "score_stream_interface_w.sv": "e966f438b14b426206c676e4d6f83919005efdce384149ebb00119284043a80b"
+  }
+ },
+ "staging_w16": {
+  "rtl": "rtl/transport/score_stream_interface_w.sv",
+  "scope": "S-path staging, 16-bit position-implicit shared-score packet (W=16, CT)",
+  "top": "score_stream_interface_w",
+  "params": {
+   "W": 16
+  },
+  "cell_area_um2": 11760.392000000189,
+  "flip_flops": 1472,
+  "cells": 4704,
+  "slack_125MHz_ns": 7.430346,
+  "slack_250MHz_ns": 3.430346,
+  "fmax_pass_MHz": 1755.0537109375,
+  "rtl_sha256": {
+   "score_stream_interface_w.sv": "e966f438b14b426206c676e4d6f83919005efdce384149ebb00119284043a80b"
+  }
+ },
+ "bank_gs": {
+  "rtl": "rtl/bank/gqa4_score_bank_gs.sv",
+  "top": "gqa4_score_bank_gs",
+  "cell_area_um2": 136161.9419999481,
+  "flip_flops": 12815,
+  "slack_125MHz_ns": 5.2189,
+  "scope": "Integrated check: GQA4 score bank + GS unit, flattened. The area model conservatively adds the standalone GS unit instead."
+ },
+ "sram_cacti_itrs_hp": {
+  "4096": {
+   "area_mm2": 0.02734287192,
+   "access_ns": 0.299609,
+   "cycle_ns": 0.231445,
+   "config_sha256": "3c25546cd92efe9a6705bd40f5fecfa96778b6375331d26e45cbe429a56fc375"
+  },
+  "8192": {
+   "area_mm2": 0.05175712673999999,
+   "access_ns": 0.329377,
+   "cycle_ns": 0.286537,
+   "config_sha256": "a0a60a9be5e9e545190b91d83b615c2f4ca5c3fa7f3ad581f5a8d4bfef4b15f0"
+  },
+  "16384": {
+   "area_mm2": 0.097569122652,
+   "access_ns": 0.441345,
+   "cycle_ns": 0.371476,
+   "config_sha256": "9ec51f6d180cbcb06b78f8e3d9a710016570db8a03a7fd6753f38529f7889a5a"
+  },
+  "32768": {
+   "area_mm2": 0.207987704178,
+   "access_ns": 0.591615,
+   "cycle_ns": 0.447104,
+   "config_sha256": "db7965fa4ff488356e53f9ca47d10233ea3680652011c9cb6af75a917d9f59b3"
+  },
+  "65536": {
+   "area_mm2": 0.39295031758500004,
+   "access_ns": 0.760484,
+   "cycle_ns": 0.532741,
+   "config_sha256": "0f99787c26bb65a3493c4d4b2085fe5bd26e0db6019f68f3e33507c6b9baa6e9"
+  },
+  "131072": {
+   "area_mm2": 0.7795302849949999,
+   "access_ns": 1.07905,
+   "cycle_ns": 0.532741,
+   "config_sha256": "805d2e8f1d2c3148afa5b3aba13989d8771c1988789fb291aebc0924ca08472c"
+  },
+  "262144": {
+   "area_mm2": 1.58524136425,
+   "access_ns": 1.43781,
+   "cycle_ns": 0.532741,
+   "config_sha256": "47ff56e7fddcc11ef35d534c8d4866b4cd04153eb9fcc90627c69522dab73cc7"
+  },
+  "524288": {
+   "area_mm2": 3.3954216912,
+   "access_ns": 2.03003,
+   "cycle_ns": 0.447104,
+   "config_sha256": "2b1e917ca24f1e19ce8b7a7b4c8fc7a4b4671fbac0abdfdb72f1addde61ce8d5"
+  }
+ }
+}

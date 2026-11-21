@@ -1,0 +1,192 @@
+{
+  "liberty_sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+  "results": {
+    "gs_unit": {
+      "name": "gs_unit",
+      "top": "gs_shared_score",
+      "params": {},
+      "cell_area_um2": 11725.546000000082,
+      "flip_flops": 946,
+      "cells": 6475,
+      "slack_125MHz_ns": 5.556944,
+      "slack_250MHz_ns": 1.556945,
+      "fmax_pass_MHz": 408.8134765625,
+      "fmax_fail_MHz": 410.7421875
+    },
+    "vs_engine": {
+      "name": "vs_engine",
+      "top": "vs_mass_threshold",
+      "params": {
+        "RW": 13
+      },
+      "cell_area_um2": 25977.293999997386,
+      "flip_flops": 450,
+      "cells": 20686,
+      "slack_125MHz_ns": 0.394921,
+      "slack_250MHz_ns": -3.60508,
+      "fmax_pass_MHz": 131.0791015625,
+      "fmax_fail_MHz": 133.0078125
+    },
+    "staging_w64": {
+      "name": "staging_w64",
+      "top": "score_stream_interface_w",
+      "params": {
+        "W": 64
+      },
+      "cell_area_um2": 41016.136000001694,
+      "flip_flops": 5312,
+      "cells": 15728,
+      "slack_125MHz_ns": 7.417961,
+      "slack_250MHz_ns": 3.41796,
+      "fmax_pass_MHz": 1716.4794921875,
+      "fmax_fail_MHz": 1718.408203125
+    },
+    "staging_w16": {
+      "name": "staging_w16",
+      "top": "score_stream_interface_w",
+      "params": {
+        "W": 16
+      },
+      "cell_area_um2": 11760.392000000189,
+      "flip_flops": 1472,
+      "cells": 4704,
+      "slack_125MHz_ns": 7.430346,
+      "slack_250MHz_ns": 3.430346,
+      "fmax_pass_MHz": 1755.0537109375,
+      "fmax_fail_MHz": 1756.982421875
+    },
+    "s_path_staging": {
+      "name": "s_path_staging",
+      "cell_area_um2": 41321.50400000227,
+      "flip_flops": 5312,
+      "cells": 15836,
+      "slack_250MHz_ns": 3.37242
+    },
+    "bank_gs": {
+      "name": "bank_gs",
+      "cell_area_um2": 136161.9419999481,
+      "flip_flops": 12815,
+      "cells": 81214,
+      "slack_125MHz_ns": 5.2189
+    },
+    "refresh_round_H2": {
+      "name": "round_H2",
+      "params": {
+        "NREFI": 5070,
+        "P": 8,
+        "U": 8,
+        "H": 2,
+        "LOW": 5,
+        "ROUND": 1
+      },
+      "cell_area_um2": 10425.338000000274,
+      "flip_flops": 533,
+      "cells": 7262,
+      "fmax_pass_MHz": 302.734375,
+      "fmax_fail_MHz": 303.69873046875,
+      "slack_125MHz_ns": 4.699215,
+      "slack_250MHz_ns": 0.699215
+    },
+    "refresh_round_H6": {
+      "name": "round_H6",
+      "params": {
+        "NREFI": 5070,
+        "P": 8,
+        "U": 8,
+        "H": 6,
+        "LOW": 1,
+        "ROUND": 1
+      },
+      "cell_area_um2": 10409.644000000282,
+      "flip_flops": 533,
+      "cells": 7338,
+      "fmax_pass_MHz": 298.876953125,
+      "fmax_fail_MHz": 299.84130859375,
+      "slack_125MHz_ns": 4.663424,
+      "slack_250MHz_ns": 0.663424
+    },
+    "refresh_relaxed_H2": {
+      "name": "relaxed_H2",
+      "params": {
+        "NREFI": 5070,
+        "P": 8,
+        "U": 8,
+        "H": 2,
+        "LOW": 0,
+        "ROUND": 0
+      },
+      "cell_area_um2": 10211.474000000218,
+      "flip_flops": 469,
+      "cells": 7294,
+      "fmax_pass_MHz": 319.12841796875,
+      "fmax_fail_MHz": 320.0927734375,
+      "slack_125MHz_ns": 4.872268,
+      "slack_250MHz_ns": 0.872267
+    }
+  },
+  "comparison": {
+    "gs_unit": {
+      "cell_area_um2": 11725.546000000082,
+      "recorded_cell_area_um2": 11725.546000000082,
+      "identical_area": true,
+      "flip_flops": 946,
+      "recorded_flip_flops": 946
+    },
+    "vs_engine": {
+      "cell_area_um2": 25977.293999997386,
+      "recorded_cell_area_um2": 25977.293999997386,
+      "identical_area": true,
+      "flip_flops": 450,
+      "recorded_flip_flops": 450
+    },
+    "staging_w64": {
+      "cell_area_um2": 41016.136000001694,
+      "recorded_cell_area_um2": 41016.136000001694,
+      "identical_area": true,
+      "flip_flops": 5312,
+      "recorded_flip_flops": 5312
+    },
+    "staging_w16": {
+      "cell_area_um2": 11760.392000000189,
+      "recorded_cell_area_um2": 11760.392000000189,
+      "identical_area": true,
+      "flip_flops": 1472,
+      "recorded_flip_flops": 1472
+    },
+    "s_path_staging": {
+      "cell_area_um2": 41321.50400000227,
+      "recorded_cell_area_um2": 41321.50400000227,
+      "identical_area": true,
+      "flip_flops": 5312,
+      "recorded_flip_flops": 5312
+    },
+    "bank_gs": {
+      "cell_area_um2": 136161.9419999481,
+      "recorded_cell_area_um2": 136161.9419999481,
+      "identical_area": true,
+      "flip_flops": 12815,
+      "recorded_flip_flops": 12815
+    },
+    "refresh_round_H2": {
+      "cell_area_um2": 10425.338000000274,
+      "recorded_cell_area_um2": 10425.338000000274,
+      "identical_area": true,
+      "flip_flops": 533,
+      "recorded_flip_flops": 533
+    },
+    "refresh_round_H6": {
+      "cell_area_um2": 10409.644000000282,
+      "recorded_cell_area_um2": 10409.644000000282,
+      "identical_area": true,
+      "flip_flops": 533,
+      "recorded_flip_flops": 533
+    },
+    "refresh_relaxed_H2": {
+      "cell_area_um2": 10211.474000000218,
+      "recorded_cell_area_um2": 10211.474000000218,
+      "identical_area": true,
+      "flip_flops": 469,
+      "recorded_flip_flops": 469
+    }
+  }
+}

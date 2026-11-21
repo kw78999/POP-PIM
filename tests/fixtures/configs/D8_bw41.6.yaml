@@ -1,0 +1,43 @@
+Frontend:
+  refresh_drain: true
+  impl: "Phase13Common"
+  output: "<OUT>"
+  design: "D8"
+  mode: "full"
+  replicas: 1
+  coupled_release: false
+  context_length: 32768
+  budget: 4096
+  ii: 26
+  latency: 51
+  tile_schedule: "<ROOT>/data/calibration/schedules/D8.txt"
+  selector_engines: 4
+  selector_ports: 4
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+  DRAM:
+    impl: Phase20HBM3
+    org:
+      preset: HBM3_8Gb_2R
+      channel: 1
+    timing:
+      preset: HBM3_5.2Gbps
+  Controller:
+    impl: PopPIMHBM3
+    refresh_policy: pim_pb
+    refresh_postpone: 8
+    refresh_pullin: 8
+    refresh_headroom: 2
+    refresh_round_rule: true
+    refresh_drain_low: 5
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: No
+    plugins:
+    - ControllerPlugin:
+        impl: Phase13Commands
+        trace_file: "<OUT>/command_trace.bin"
+  AddrMapper:
+    impl: HBM3-Custom

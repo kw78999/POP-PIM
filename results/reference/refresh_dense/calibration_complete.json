@@ -1,0 +1,5 @@
+{
+  "time_kst": "2026-10-30T20:04:09.078429+09:00",
+  "modes": 24,
+  "input_model": "independent Q16B and K16B SRAM ports; one explicit assembled-beat staging register"
+}

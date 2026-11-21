@@ -1,0 +1,58 @@
+{
+  "samples": 4096,
+  "vector_sha256": "c96539639ace79b52f5fce7f5b05399f3cf425c9bf82a650be57dbe319e39f8a",
+  "checks": [
+    {
+      "mode": 0,
+      "outputs": 4096,
+      "cycles": 90130,
+      "issues": 81920,
+      "completes": 81920,
+      "count_completions": 8192,
+      "resets": 0,
+      "output_stall_cycles": 0,
+      "dependency_stall_cycles": 4113,
+      "context_stall_cycles": 40946,
+      "steady_issue_utilization": 0.909091,
+      "stage_occupancy": 0.909091,
+      "all_bit_exact": true,
+      "fp_latency": 3,
+      "mean_II": 22
+    },
+    {
+      "mode": 1,
+      "outputs": 4096,
+      "cycles": 101717,
+      "issues": 81920,
+      "completes": 81920,
+      "count_completions": 8192,
+      "resets": 0,
+      "output_stall_cycles": 13358,
+      "dependency_stall_cycles": 4734,
+      "context_stall_cycles": 52528,
+      "steady_issue_utilization": 0.806136,
+      "stage_occupancy": 0.806136,
+      "all_bit_exact": true,
+      "fp_latency": 3,
+      "mean_II": 24.809710258418168
+    },
+    {
+      "mode": 2,
+      "outputs": 4096,
+      "cycles": 102042,
+      "issues": 81983,
+      "completes": 81974,
+      "count_completions": 8201,
+      "resets": 3,
+      "output_stall_cycles": 13611,
+      "dependency_stall_cycles": 4742,
+      "context_stall_cycles": 52792,
+      "steady_issue_utilization": 0.803751,
+      "stage_occupancy": 0.803751,
+      "all_bit_exact": true,
+      "fp_latency": 3,
+      "mean_II": 24.883320281910727
+    }
+  ],
+  "scope": "Generated descriptor and special-value corpus; not a model-quality measurement"
+}

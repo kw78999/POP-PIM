@@ -1,0 +1,49 @@
+{
+ "description": "Each reference run regenerated with tools.run_simulation against metrics.json of the matching archived development run. \"identical_on_shared_keys\": the archived run came from an earlier build without the phase21_* counters; every shared metric is equal.",
+ "summary": {
+  "main": {
+   "compared": 28,
+   "identical": 28,
+   "identical_on_shared_keys": 0,
+   "differ": 0,
+   "missing": 0
+  },
+  "ablation": {
+   "compared": 121,
+   "identical": 121,
+   "identical_on_shared_keys": 0,
+   "differ": 0,
+   "missing": 0
+  },
+  "refresh": {
+   "compared": 45,
+   "identical": 32,
+   "identical_on_shared_keys": 13,
+   "differ": 0,
+   "missing": 0
+  }
+ },
+ "details": {
+  "main": {
+   "compared": 28,
+   "identical": 28,
+   "identical_shared_keys": 0,
+   "missing": [],
+   "differ": []
+  },
+  "ablation": {
+   "compared": 121,
+   "identical": 121,
+   "identical_shared_keys": 0,
+   "missing": [],
+   "differ": []
+  },
+  "refresh": {
+   "compared": 45,
+   "identical": 32,
+   "identical_shared_keys": 13,
+   "missing": [],
+   "differ": []
+  }
+ }
+}

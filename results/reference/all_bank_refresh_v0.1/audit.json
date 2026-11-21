@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "runs": 6,
+  "checks": [
+    {
+      "design": "D1",
+      "passed": true,
+      "command_records": 4384435,
+      "trace_sha256": "3471517215842651c4a0170fc9987df6e45dcfbb2cdda8bd8281d48e8613db53"
+    },
+    {
+      "design": "D2",
+      "passed": true,
+      "command_records": 4378010,
+      "trace_sha256": "da211adb15629dcec305d520717a1dbf6ea2d0b2b6b648d43111038f006481bc"
+    },
+    {
+      "design": "D4",
+      "passed": true,
+      "command_records": 4374150,
+      "trace_sha256": "dd0c5138fce73d994128766f52498319c0a183e25a1a5b623f1af8176fdfb6f7"
+    },
+    {
+      "design": "D8",
+      "passed": true,
+      "command_records": 4471058,
+      "trace_sha256": "e05ed581253a5757d2d23fd700f62e21791322ed85e071a1a128cc2865c0b626"
+    },
+    {
+      "design": "POP_E4P4",
+      "passed": true,
+      "command_records": 1938198,
+      "trace_sha256": "11351ebfd9c74d882c06c9fb2bb903e190e2e55b9d9c64e044091b782887b8af"
+    },
+    {
+      "design": "POP_E24P32",
+      "passed": true,
+      "command_records": 1930921,
+      "trace_sha256": "558f5f81826d435ec53e281ca689d5200580a7bdaadbf4894729d586b049323e"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "suite": "ablation",
+  "records": 121,
+  "source": "/workspace/PopPIM/results/ablation/runs.json",
+  "latency": "simulated attention output time plus the hardware VS scan (125 MHz)",
+  "area": "known partial area per channel (tools.area_model); total chip area and energy are not reported"
+}

@@ -1,0 +1,25 @@
+{
+  "binaries": {
+    "gqa_test": "cf93e9064ad228ae60b32c1003213590863e04102f8927162f08fbf9a00e5e8d",
+    "refresh_test": "bc9ba69e92f535a11f0b22471822de5cff5985ed1cd4241c611b4dd9df8e2e08",
+    "poppim_pop": "996d9427f2bee1551e9aa1816719b2cc7c2376d05d2f231f10ae8cfb9dcfdba9",
+    "poppim_dense": "2202ac9c3cc4e0730880cc0568d3ea39e09af1740d7b4ec36e2e224b5bc7d1a7"
+  },
+  "ramulator_sha256": "189d2abfdbc1798389de64aaae6d49e5bc24ec54227eeceeb82001ffb47b56dd",
+  "source_sha256": {
+    "simulator/README.md": "eef2d5c34b3aa022fb40d590dd905f9c00923fff82e4a9d4f5ba7da992e99da7",
+    "simulator/tests/gqa.cpp": "35fef6becd86fe362b2095834ac8c76564c55ce0adc8ddaa60e2dbd92d4ffee7",
+    "simulator/tests/refresh.cpp": "a399410a58f150dac8a50738e94bdc77c79b481eafa21cab7ec9b9c3f0b556ff",
+    "simulator/pop/frontend.cpp": "995972d8535db2398bbc24aa7be53a92abfb4776d1d8a143794d598df54a641d",
+    "simulator/dense/frontend.cpp": "80d44c726058bbf1dda083c64c960e92948fd088347553d0b1edf01be1177d85",
+    "simulator/common/bf16_core.h": "948cbb5ada3856f0d3cdf88d3f2584d2ddcbf156004dcfbeae936325b868aca7",
+    "simulator/common/gqa_hw.h": "d7c5fc76c64e00d2b7dd6a775fcff1f4acf329edcda846f42683891a2d694963",
+    "simulator/common/resources.h": "9ed3c430b469672baab8ae99881b3e001cb7dce4aa78201f06b10c7328c21646",
+    "simulator/common/hbm3_scoped.cpp": "689ae0b49aa43169f6f018d7c26e7e284b42601aff989fe492f8fccbb89b3856",
+    "simulator/common/controller.cpp": "f408687a8f0184613df6f8fade57df91706e1ed46a4fdd0a36f51848f41e1bb5",
+    "simulator/common/diagnostics.h": "317973466b0b01bba2749e1e6f72bc8447e644efa212313516d2c05f1436c1f3",
+    "simulator/common/offload.inc": "527e37df7b262f56d280d751ffb4055e5fc3a1ce6e2e697e96b3584cf15909d3",
+    "simulator/common/pop_control.inc": "0fcb68d98126f536ff1d724ef2aaa5a99ec0589a4ad7663f17ebd89d9207d4ce",
+    "simulator/common/selector_cluster_sram.h": "a98bc3e013f3e5d3885ab2b9fc3d544d28dd75d391ff3dc53da89e33b2f4cd06"
+  }
+}

@@ -1,0 +1,1162 @@
+{
+  "status": "Passed",
+  "count": 289,
+  "checks": [
+    {
+      "name": "27 unique architectural runs completed",
+      "passed": true
+    },
+    {
+      "name": "32k64k128k all6 designs actually executed",
+      "passed": true
+    },
+    {
+      "name": "exact nRP and nRFC boundaries verified",
+      "passed": true
+    },
+    {
+      "name": "pseudochannel isolation and tRP tRFC fixed",
+      "passed": true
+    },
+    {
+      "name": "D1 all4 modes bit exact and reset flush",
+      "passed": true
+    },
+    {
+      "name": "D1 no lost or duplicate FMA nodes",
+      "passed": true
+    },
+    {
+      "name": "D1 output backpressure exercised",
+      "passed": true
+    },
+    {
+      "name": "D1 every tile schedule independently matches RTL frames",
+      "passed": true
+    },
+    {
+      "name": "D2 all4 modes bit exact and reset flush",
+      "passed": true
+    },
+    {
+      "name": "D2 no lost or duplicate FMA nodes",
+      "passed": true
+    },
+    {
+      "name": "D2 output backpressure exercised",
+      "passed": true
+    },
+    {
+      "name": "D2 every tile schedule independently matches RTL frames",
+      "passed": true
+    },
+    {
+      "name": "D4 all4 modes bit exact and reset flush",
+      "passed": true
+    },
+    {
+      "name": "D4 no lost or duplicate FMA nodes",
+      "passed": true
+    },
+    {
+      "name": "D4 output backpressure exercised",
+      "passed": true
+    },
+    {
+      "name": "D4 every tile schedule independently matches RTL frames",
+      "passed": true
+    },
+    {
+      "name": "D8 all4 modes bit exact and reset flush",
+      "passed": true
+    },
+    {
+      "name": "D8 no lost or duplicate FMA nodes",
+      "passed": true
+    },
+    {
+      "name": "D8 output backpressure exercised",
+      "passed": true
+    },
+    {
+      "name": "D8 every tile schedule independently matches RTL frames",
+      "passed": true
+    },
+    {
+      "name": "D16 all4 modes bit exact and reset flush",
+      "passed": true
+    },
+    {
+      "name": "D16 no lost or duplicate FMA nodes",
+      "passed": true
+    },
+    {
+      "name": "D16 output backpressure exercised",
+      "passed": true
+    },
+    {
+      "name": "D16 every tile schedule independently matches RTL frames",
+      "passed": true
+    },
+    {
+      "name": "D16 synthesized with real port16 wrapper",
+      "passed": true
+    },
+    {
+      "name": "D16 no blackbox correct FMA count125MHz pass",
+      "passed": true
+    },
+    {
+      "name": "D32 all4 modes bit exact and reset flush",
+      "passed": true
+    },
+    {
+      "name": "D32 no lost or duplicate FMA nodes",
+      "passed": true
+    },
+    {
+      "name": "D32 output backpressure exercised",
+      "passed": true
+    },
+    {
+      "name": "D32 every tile schedule independently matches RTL frames",
+      "passed": true
+    },
+    {
+      "name": "D32 synthesized with real port16 wrapper",
+      "passed": true
+    },
+    {
+      "name": "D32 no blackbox correct FMA count125MHz pass",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D1_score scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full_no_refresh scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D16_score scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D2_score scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full_no_refresh scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D32_score scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D4_score scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full_no_refresh scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score row accounting",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n32768_D8_score scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n65536_D1_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n65536_D16_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n65536_D2_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n65536_D32_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n65536_D4_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n65536_D8_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n131072_D1_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n131072_D16_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n131072_D2_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n131072_D32_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n131072_D4_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full immutable raw evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full exact tile calibration no added input latency",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full scores tiles and engine conservation",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full read bytes callbacks and DRAM reads",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full row accounting",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full completion and backend operations",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full trace file hash",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full independent all-command trace audit",
+      "passed": true
+    },
+    {
+      "name": "n131072_D8_full scoped refresh and command tRP tRFC",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase9/baseline_ppa.csv",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase9/baseline_rtl.csv",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase9/area_breakdown.csv",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase13/all_runs.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase13/validation.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase15/all_runs.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase15/validation.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase16/all_runs.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/phase16/validation.json",
+      "passed": true
+    },
+    {
+      "name": "preserved rtl/phase9_baselines/dense_score.sv",
+      "passed": true
+    },
+    {
+      "name": "preserved rtl/score7/bf16_fma_pipeline.sv",
+      "passed": true
+    },
+    {
+      "name": "preserved simulator/phase4/poppim_controller.cpp",
+      "passed": true
+    },
+    {
+      "name": "preserved simulator/phase16/common_frontend.cpp",
+      "passed": true
+    },
+    {
+      "name": "preserved third_party/attacc_simulator/ramulator2/libramulator.so",
+      "passed": true
+    }
+  ]
+}

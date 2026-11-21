@@ -1,0 +1,8 @@
+{
+  "command": [
+    "/workspace/PopPIM/build/bin/poppim_pop",
+    "-f",
+    "/workspace/PopPIM/outputs/main_refresh/POP_E24P32/config.yaml"
+  ],
+  "seconds": 14.989960675011389
+}

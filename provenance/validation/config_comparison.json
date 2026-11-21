@@ -1,0 +1,7 @@
+{
+ "description": "tools.run_simulation.configuration() against the config.yaml of every archived development run it supports (per-bank refresh policy runs, the byte-frugal ablation and the bandwidth sweep), file paths normalized.",
+ "checked": 274,
+ "identical": 274,
+ "not_supported_skipped": 80,
+ "skipped_reason": "POP replays at 64K/128K or other budgets and an escalation refresh variant, not carried into the release"
+}

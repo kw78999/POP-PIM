@@ -1,0 +1,25 @@
+label,design,N,mode,refresh,prior_model_score_ms,port16_exact_tile_score_ms,prior_attention_ms,port16_exact_tile_attention_ms,change_scope
+n32768_D1_full,D1,32768,full,True,42.314992,41.49324,42.316144657,41.494400485,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D1_score,D1,32768,score,True,19.961768,19.961608,N/A,N/A,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D16_full,D16,32768,full,True,31.710448,31.258008,31.711592362,31.25915275,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D16_score,D16,32768,score,True,13.617912,16.053392,N/A,N/A,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D2_full,D2,32768,full,True,24.608288,24.098936,24.60944057,24.100080347,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D2_score,D2,32768,score,True,12.695128,14.336176,N/A,N/A,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D32_full,D32,32768,full,True,28.896824,16.492384,28.8979767,16.493528382,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D32_score,D32,32768,score,True,11.089424,8.835368,N/A,N/A,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D4_full,D4,32768,full,True,16.195728,15.869136,16.19688048,15.870288487,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D4_score,D4,32768,score,True,8.78304,8.811232,N/A,N/A,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D8_full,D8,32768,full,True,14.472912,18.223392,14.474056713,18.224536616,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n32768_D8_score,D8,32768,score,True,8.136352,9.569968,N/A,N/A,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n65536_D1_full,D1,65536,full,True,85.340968,83.09008,85.342496724,83.091232306,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n65536_D16_full,D16,65536,full,True,63.461896,63.928048,63.463048682,63.929192643,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n65536_D2_full,D2,65536,full,True,49.303296,47.745336,49.304440616,47.746480452,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n65536_D32_full,D32,65536,full,True,56.842384,32.942336,56.84353667,32.943480377,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n65536_D4_full,D4,65536,full,True,32.566824,31.66568,32.568064574,31.667200299,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n65536_D8_full,D8,65536,full,True,28.943168,36.179136,28.944320485,36.180280584,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n131072_D1_full,D1,131072,full,True,169.800288,165.02524,169.801440668,165.026760425,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n131072_D16_full,D16,131072,full,True,126.984032,128.599192,126.985176325,128.600344706,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n131072_D2_full,D2,131072,full,True,98.422904,96.19152,98.424056463,96.193040584,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n131072_D32_full,D32,131072,full,True,113.080344,64.872776,113.081488683,64.873920678,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n131072_D4_full,D4,131072,full,True,64.794656,63.435528,64.795800275,63.436672751,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical
+n131072_D8_full,D8,131072,full,True,56.991864,72.347336,56.993008738,72.348480714,explicit input assembly RTL + measured finite tile instead of average II plus input cost; refresh policy identical

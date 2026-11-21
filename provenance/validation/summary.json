@@ -1,0 +1,90 @@
+{
+ "prepared_at_utc": "2026-11-21T10:03:10+00:00",
+ "python": "3.11.13",
+ "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.31",
+ "tools": {
+  "compiler": "g++-10 (Ubuntu 10.5.0-1ubuntu1~20.04) 10.5.0",
+  "verilator": "Verilator 4.028 2020-02-06 rev v4.026-92-g890cecc1",
+  "yosys": "Yosys 0.9 (git sha1 1979e0b)",
+  "opensta": "2.0.17",
+  "cmake": "cmake version 3.16.3"
+ },
+ "binaries_identical_to_development_build": {
+  "poppim_dense": {
+   "after_comment_cleanup": "e5c5390cd7cc93837bfb581489b4515d79c431b996c831f9c9e19eec41e5d882",
+   "before_cleanup": "e5c5390cd7cc93837bfb581489b4515d79c431b996c831f9c9e19eec41e5d882",
+   "development_build": "e5c5390cd7cc93837bfb581489b4515d79c431b996c831f9c9e19eec41e5d882",
+   "identical": true
+  },
+  "poppim_pop": {
+   "after_comment_cleanup": "a8565002552f1e801b405cf30e634acf4ac3c1fb3a88337c2bf83b750fe01165",
+   "before_cleanup": "a8565002552f1e801b405cf30e634acf4ac3c1fb3a88337c2bf83b750fe01165",
+   "development_build": "a8565002552f1e801b405cf30e634acf4ac3c1fb3a88337c2bf83b750fe01165",
+   "identical": true
+  },
+  "libramulator.so": {
+   "identical": true
+  },
+  "GQA1__ALL.a": {
+   "identical": true
+  }
+ },
+ "reference_suites": {
+  "main": {
+   "runs": 28,
+   "raw_trace_audits_passed": true
+  },
+  "ablation": {
+   "runs": 121,
+   "raw_trace_audits_passed": true
+  },
+  "refresh": {
+   "runs": 45,
+   "raw_trace_audits_passed": true
+  }
+ },
+ "archive_comparison": {
+  "main": {
+   "compared": 28,
+   "identical": 28,
+   "identical_on_shared_keys": 0,
+   "differ": 0,
+   "missing": 0
+  },
+  "ablation": {
+   "compared": 121,
+   "identical": 121,
+   "identical_on_shared_keys": 0,
+   "differ": 0,
+   "missing": 0
+  },
+  "refresh": {
+   "compared": 45,
+   "identical": 32,
+   "identical_on_shared_keys": 13,
+   "differ": 0,
+   "missing": 0
+  }
+ },
+ "config_comparison": {
+  "description": "tools.run_simulation.configuration() against the config.yaml of every archived development run it supports (per-bank refresh policy runs, the byte-frugal ablation and the bandwidth sweep), file paths normalized.",
+  "checked": 274,
+  "identical": 274,
+  "not_supported_skipped": 80,
+  "skipped_reason": "POP replays at 64K/128K or other budgets and an escalation refresh variant, not carried into the release"
+ },
+ "quick_suite": {
+  "command": "python -m tools.reproduce --suite quick",
+  "status": "identical",
+  "compared": 3,
+  "identical": 3,
+  "raw_trace_audits_passed": true,
+  "host_seconds": 36
+ },
+ "github_ci_run": false,
+ "not_rerun": [
+  "Model-quality evaluation (Llama-3.1-8B, PG19): summary reproduced from the recorded run only",
+  "Dense/POP bank synthesis (tools.synthesize_dense/synthesize_pop) and Dense/POP RTL calibration: unchanged since 0.1.0",
+  "CACTI fetch/build branch; the existing local build of the pinned revision was used"
+ ]
+}

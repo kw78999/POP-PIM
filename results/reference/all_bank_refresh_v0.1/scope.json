@@ -1,0 +1,8 @@
+{
+  "source": "/workspace/PopPIM/results/main/runs.json",
+  "area_variant": "itrs-hp",
+  "total_chip_area": "Unknown",
+  "total_energy": "Unknown",
+  "records": 6,
+  "limitation": "Architectural service timing; numerical replay does not establish equal model quality"
+}

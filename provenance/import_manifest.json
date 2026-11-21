@@ -1,0 +1,2828 @@
+{
+  "original_project": "POP-PIM",
+  "entries": [
+    {
+      "source": "poppim/__init__.py",
+      "path": "poppim/__init__.py",
+      "source_sha256": "9f182f5b86535f244850bd44fc5bdc7bcf2c2006b980b6666581b7faf4aac719"
+    },
+    {
+      "source": "poppim/simulator/gqa_metadata_reuse.py",
+      "path": "poppim/simulator/gqa_metadata_reuse.py",
+      "source_sha256": "6b3f3e81fc5fd4a6b230c3c864dbddec57c539e8fb2e4edb22f574578ea62c58"
+    },
+    {
+      "source": "poppim/simulator/sram_architecture.py",
+      "path": "poppim/simulator/sram_architecture.py",
+      "source_sha256": "a031e46d8166bb5c912c7f0b30e87375997ff7bfb0721a98f96f8fda55b29207"
+    },
+    {
+      "source": "poppim/simulator/score_pipeline_model.py",
+      "source_sha256": "f654cd557702deab27bc3da53dd4c92c5c96f098b73fc46bb8c95a3fac7a2b21",
+      "disposition": "Historical Phase5-only calibration loader; preserved in the local history archive",
+      "original_import_path": "poppim/simulator/score_pipeline_model.py"
+    },
+    {
+      "source": "poppim/simulator/rtl_selector.py",
+      "path": "poppim/simulator/rtl_selector.py",
+      "source_sha256": "db161a563de32a63878e86b96b56eb126000b1245650ae59a2a0fde3f6e2d10a"
+    },
+    {
+      "source": "poppim/simulator/attention_reference.py",
+      "path": "poppim/simulator/attention_reference.py",
+      "source_sha256": "29f0260abe1a7c22e315bb40a7c5a00dd17bc885a6fd67751651f89d1e99984a"
+    },
+    {
+      "source": "poppim/simulator/selection_pipeline.py",
+      "path": "poppim/simulator/selection_pipeline.py",
+      "source_sha256": "f33682beba739f2c2beafee84e8843715145ef2705832eec79219be5142991c1"
+    },
+    {
+      "source": "poppim/simulator/break_even.py",
+      "path": "poppim/simulator/break_even.py",
+      "source_sha256": "01851eefc7c1bb3c4a112ad56aa258a555c4576767ea6cab6c691699e8d5f353"
+    },
+    {
+      "source": "poppim/simulator/selector_pipeline.py",
+      "path": "poppim/simulator/selector_pipeline.py",
+      "source_sha256": "da223e6044966e45fe2b4d3286ae2aaa777d08a41772d51ad334f8c2f7c12ebf"
+    },
+    {
+      "source": "poppim/simulator/trace_generator.py",
+      "path": "poppim/simulator/trace_generator.py",
+      "source_sha256": "bfb4f4e9f842c5c4c16ba20773bf2aad41203814023e1e20721ac5a5a1d3bb33"
+    },
+    {
+      "source": "poppim/simulator/cost_model.py",
+      "path": "poppim/simulator/cost_model.py",
+      "source_sha256": "f4a83cb29630be2c8d7887fac1e2fc5c799b82ad92fb3df4b1ab1d5825ecc833"
+    },
+    {
+      "source": "poppim/simulator/functional.py",
+      "path": "poppim/simulator/functional.py",
+      "source_sha256": "f24798910363b255c35bcf01baee307cb07dd4b247440769a22044bb386be725"
+    },
+    {
+      "source": "poppim/simulator/__init__.py",
+      "path": "poppim/simulator/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "poppim/simulator/cpp/cluster.h",
+      "path": "poppim/simulator/cpp/cluster.h",
+      "source_sha256": "7c850d1721cc9d184cb3dc6cbffc2f70bde0f56ee9be9cae364f098e0cabdec8"
+    },
+    {
+      "source": "poppim/simulator/cpp/rtl_core.h",
+      "path": "poppim/simulator/cpp/rtl_core.h",
+      "source_sha256": "a4a6e976450df6c16ec2e44f78885de0e7fa72b534c1c39894e7e5cf825d7791"
+    },
+    {
+      "source": "poppim/topk/radix_selection_only.py",
+      "path": "poppim/topk/radix_selection_only.py",
+      "source_sha256": "4fa58dc750dced6db2ce9be1ea79eb70c56ef898abe821075a3cf8902701b055"
+    },
+    {
+      "source": "poppim/topk/hierarchical_topk.py",
+      "path": "poppim/topk/hierarchical_topk.py",
+      "source_sha256": "030e848ea8cb7ff427d9f31124f9ae92fc4d3f2a2e972531271f3bf27ac2324b"
+    },
+    {
+      "source": "poppim/topk/instrumented_heap.py",
+      "path": "poppim/topk/instrumented_heap.py",
+      "source_sha256": "03d6c0b2835fbacc5ee17d2e6c78ba0501708e46f125812c52e3aa285f141240"
+    },
+    {
+      "source": "poppim/topk/radix_topk.py",
+      "path": "poppim/topk/radix_topk.py",
+      "source_sha256": "57e253c7749fbeaaaeb28fe3d9e8b2b2ea735204abe480bf5533e62bc5cd8d3e"
+    },
+    {
+      "source": "poppim/topk/threshold_topk.py",
+      "path": "poppim/topk/threshold_topk.py",
+      "source_sha256": "3faaab6807785fd5e015cbdb86c71b691655b1926cf430714aee7aeb21a1383e"
+    },
+    {
+      "source": "poppim/topk/bank_local_topk.py",
+      "path": "poppim/topk/bank_local_topk.py",
+      "source_sha256": "1f13a173c7989bb2e310fefeaa55c81cfae9138847336bc2f57eca0af4a0dc8b"
+    },
+    {
+      "source": "poppim/topk/near_memory_topk.py",
+      "path": "poppim/topk/near_memory_topk.py",
+      "source_sha256": "bc8611cdf255ef548ea4cbac109f496b23a9b40439d4be9cffb0c2f47fea3e71"
+    },
+    {
+      "source": "poppim/topk/host_topk.py",
+      "path": "poppim/topk/host_topk.py",
+      "source_sha256": "8c47f6b39268cc279531bfb545d2f1d71b7c775388c4eeda469ef0480abec78c"
+    },
+    {
+      "source": "poppim/topk/__init__.py",
+      "path": "poppim/topk/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "poppim/memory/bank_mapper.py",
+      "path": "poppim/memory/bank_mapper.py",
+      "source_sha256": "80d9eb64bfc00ced61971a0cd52227ceb3cda4f5a3d58b43dbb4b1b69cf79b92"
+    },
+    {
+      "source": "poppim/memory/__init__.py",
+      "path": "poppim/memory/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "poppim/scoring/pim_scorer.py",
+      "path": "poppim/scoring/pim_scorer.py",
+      "source_sha256": "e754c2c4dad7fac5be614b850935fd5b262dae14bad9eea453ea5f5814f06a9f"
+    },
+    {
+      "source": "poppim/scoring/reference.py",
+      "path": "poppim/scoring/reference.py",
+      "source_sha256": "927f3855757f284589fffb26bdcfc4d51757498fce89e676c7202613349d0329"
+    },
+    {
+      "source": "poppim/scoring/__init__.py",
+      "path": "poppim/scoring/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "poppim/encoding/bitpacking.py",
+      "path": "poppim/encoding/bitpacking.py",
+      "source_sha256": "9f750990b6920ed1b24dbb479875296d4c91cc9f177aa43524766b8d085ff090"
+    },
+    {
+      "source": "poppim/encoding/__init__.py",
+      "path": "poppim/encoding/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "tests/test_functional.py",
+      "path": "tests/test_functional.py",
+      "source_sha256": "503821d7908327be71787cccc412d3956da9d19d85894f8fbe8a7dad6d27f609"
+    },
+    {
+      "source": "tests/test_cpp_oracle.py",
+      "path": "tests/test_cpp_oracle.py",
+      "source_sha256": "64756c95499160992cd338f96976a68184969fa52dc9295b65b33a3a14973cd7"
+    },
+    {
+      "source": "tests/test_experiment.py",
+      "path": "tests/test_experiment.py",
+      "source_sha256": "1e4fc5d2d248f98559c46f0d97a354cda74525ea2e673ae8c1238fa483b3f19e"
+    },
+    {
+      "source": "tests/test_radix_topk.py",
+      "path": "tests/test_radix_topk.py",
+      "source_sha256": "8e3b7d5246eba7887614ef3041d7f3327915e78b00e223d607577b80abcf9874"
+    },
+    {
+      "source": "tests/test_selector_pipeline.py",
+      "path": "tests/test_selector_pipeline.py",
+      "source_sha256": "5d8a7ffb03f7bed2d5ae32c108aaa5296699e59969ae3861139f0b0c84a0d04b"
+    },
+    {
+      "source": "tests/test_break_even.py",
+      "path": "tests/test_break_even.py",
+      "source_sha256": "c344789630669ab971754fbfa5ee04b3ac8b4edbcc53a71e7ee6bcc9c6de22a3"
+    },
+    {
+      "source": "tests/test_radix_selection_only.py",
+      "path": "tests/test_radix_selection_only.py",
+      "source_sha256": "efe7d6a655dce158a0b8de520098c5a5f5e2b39ae00cd12d646bd5822909deee"
+    },
+    {
+      "source": "tests/test_radix_output_modes.py",
+      "path": "tests/test_radix_output_modes.py",
+      "source_sha256": "e621059660691f5a1f90d4b6847d8ded2b1d073fe6086ff295dd58f20d22004f"
+    },
+    {
+      "source": "tests/test_attention_permutation.py",
+      "path": "tests/test_attention_permutation.py",
+      "source_sha256": "a4b828e1e9bb3c07796a311c657dd5fbee6716756a5f50e8574870ae9258fcab"
+    },
+    {
+      "source": "tests/oracles/score_oracle.cpp",
+      "path": "tests/oracles/score_oracle.cpp",
+      "source_sha256": "142d30298e69e3440091678f8a05892036026aeb7e6bd1cae5fc1f07b87951a1"
+    },
+    {
+      "source": "experiments/run_comparison.py",
+      "path": "experiments/run_comparison.py",
+      "source_sha256": "f15347f8d15407e617a272fef844860588dee13bf3d45b42fb525818054d77c2"
+    },
+    {
+      "source": "configs/default.json",
+      "path": "configs/functional.json",
+      "source_sha256": "39db9c20c7ff25252dcbff51abc2edc162142a49a3677f5e0438d1681fffadd5"
+    },
+    {
+      "source": "rtl/phase9_baselines/dense_score_port16.sv",
+      "path": "rtl/dense/dense_score_port16.sv",
+      "source_sha256": "12181f515932b917733104820faaa4ed0a21984d78086beaf123d4283ec4305f"
+    },
+    {
+      "source": "rtl/phase9_baselines/dense_score.sv",
+      "path": "rtl/dense/dense_score.sv",
+      "source_sha256": "4623590b94c847c87ffd59840d0235d5e95e706d228a2324a745e1b45e5869a5"
+    },
+    {
+      "source": "rtl/phase9_baselines/tests/dense_tb.cpp",
+      "path": "rtl/dense/tests/dense_tb.cpp",
+      "source_sha256": "2ed0a366ac30c1be601f0e0ba4f57364fab9fb077dba22993733d8655b9d8609"
+    },
+    {
+      "source": "rtl/score7/bf16_sort_key.sv",
+      "path": "rtl/scoring/bf16_sort_key.sv",
+      "source_sha256": "521fe4c799eab9b95689c1f1cc2e0f01920e8286fba977e86cfed7f0056923db"
+    },
+    {
+      "source": "rtl/score7/bf16_probe.sv",
+      "path": "rtl/scoring/bf16_probe.sv",
+      "source_sha256": "438d97c6a347bcd308dd4e3294ead86245adab613f792cf5c8cd5b648c25ac23"
+    },
+    {
+      "source": "rtl/score7/score7_top.sv",
+      "path": "rtl/scoring/score7_top.sv",
+      "source_sha256": "1bf20ce63f7e24cdbd154ba480e6f3cc7ee3e347e751216623421312ccfe6fec"
+    },
+    {
+      "source": "rtl/score7/score7_group.sv",
+      "path": "rtl/scoring/score7_group.sv",
+      "source_sha256": "b6472a37032b1bb863f722d21cdf76c6dccb4702bef98167fe51794d6f0afb97"
+    },
+    {
+      "source": "rtl/score7/bf16_conversions.sv",
+      "path": "rtl/scoring/bf16_conversions.sv",
+      "source_sha256": "9be041c04a82c7a6b52d6902a92537adf2422e2b3f2b6f6b034d6d338e1f8dee"
+    },
+    {
+      "source": "rtl/score7/bf16_fma_pipeline.sv",
+      "path": "rtl/scoring/bf16_fma_pipeline.sv",
+      "source_sha256": "f1e3b2d64986eb0a3ea7ba4734e608bd8ce9ee53d9aae3f4d3fc2998ebbd8009"
+    },
+    {
+      "source": "rtl/score7/tests/fp32_activity_tb.cpp",
+      "path": "rtl/scoring/tests/fp32_activity_tb.cpp",
+      "source_sha256": "106e2e564481a5e1fa28d82691f2a74c47af94979ae42313307a906dde758046"
+    },
+    {
+      "source": "rtl/score7/tests/arithmetic_tb.cpp",
+      "path": "rtl/scoring/tests/arithmetic_tb.cpp",
+      "source_sha256": "0a3ebfdbae943429f7148c95713755e2322485e0edb4c1f3f16ae5b99557c793"
+    },
+    {
+      "source": "rtl/score7/tests/score7_tb.cpp",
+      "path": "rtl/scoring/tests/score7_tb.cpp",
+      "source_sha256": "05c0494e7d8240d7db292b7339fe856945b7388f1687648359fb81b697327a8b"
+    },
+    {
+      "source": "rtl/gqa4/gqa4_frontend.sv",
+      "path": "rtl/gqa/gqa4_frontend.sv",
+      "source_sha256": "2a168ffc92295170384566c05b861f8666eb82048a6669680cd579e096b8af40"
+    },
+    {
+      "source": "rtl/gqa4/head_score_router_gqa4.sv",
+      "path": "rtl/gqa/head_score_router_gqa4.sv",
+      "source_sha256": "6b367f81496610f7f685dd7809ae4654d9e77fb8b7eb607572073c0019f7f8d6"
+    },
+    {
+      "source": "rtl/gqa4/tile_allocator_gqa4.sv",
+      "path": "rtl/gqa/tile_allocator_gqa4.sv",
+      "source_sha256": "c491fc83320e2efceca993f7446bf1b4dee0d3cfc7ad0db56b1ddc374b418af7"
+    },
+    {
+      "source": "rtl/gqa4/metadata_tile_stream_gqa4.sv",
+      "path": "rtl/gqa/metadata_tile_stream_gqa4.sv",
+      "source_sha256": "51416e38da5f3535a4157003197b7e56336fddf3129a80533f487ccd7b56dc44"
+    },
+    {
+      "source": "rtl/score/popcount32.sv",
+      "path": "rtl/primitives/popcount32.sv",
+      "source_sha256": "06341f524d73de4e7f9e39a4ea5d9c8bb805d61d246e4450dcc32e8e49082aaa"
+    },
+    {
+      "source": "rtl/score/bitwise_count.sv",
+      "path": "rtl/primitives/bitwise_count.sv",
+      "source_sha256": "60f5af0301801aa1d0374d59c30f7b18226542b559e7a6c0d39029d61b9eb45e"
+    },
+    {
+      "source": "rtl/fp16_ordered_key.sv",
+      "path": "rtl/selector/fp16_ordered_key.sv",
+      "source_sha256": "11aef7f845dc6abb8cd5bb33a3f313f6c8f76e5eca9b5c37320f1c40652fbd71"
+    },
+    {
+      "source": "rtl/score_comparator.sv",
+      "path": "rtl/selector/score_comparator.sv",
+      "source_sha256": "cd865a7363242e0421f1cc6f0b97bb11960897ba680491d4223f7e0155476ab8"
+    },
+    {
+      "source": "rtl/radix_histogram.sv",
+      "path": "rtl/selector/radix_histogram.sv",
+      "source_sha256": "fbf4eb9bafbfeab3006b98c271c7ad4865ba9583aab19cc75a859af8d65f74d7"
+    },
+    {
+      "source": "rtl/radix_selection_only.sv",
+      "path": "rtl/selector/radix_selection_only.sv",
+      "source_sha256": "266fc7d82f6c96ff090597a5e4efe67b0494861c6564019cc910b4b799dff2cb"
+    },
+    {
+      "source": "rtl/radix_selection_pipeline.sv",
+      "path": "rtl/selector/radix_selection_pipeline.sv",
+      "source_sha256": "15a63ea50ac258f7eb15ff8144501053fdcce93970173e306d23670adcfa4876"
+    },
+    {
+      "source": "rtl/topk_selector.sv",
+      "path": "rtl/selector/topk_selector.sv",
+      "source_sha256": "122a06f8726254537bf474e16fe91e33023ba1868edb9ea30af94c67c47556d9"
+    },
+    {
+      "source": "rtl/selector_cluster.sv",
+      "path": "rtl/selector/selector_cluster.sv",
+      "source_sha256": "38365d980466d433409008824c54a2e94f34786cf3e1477418572e71f8178776"
+    },
+    {
+      "source": "simulator/phase18/selector_cluster_sram.h",
+      "path": "simulator/common/selector_cluster_sram.h",
+      "source_sha256": "4b6ccf8ebc5cb2bda7dc751b5319a1a448f342d732851bd93533d08c207cef4a"
+    },
+    {
+      "source": "simulator/phase18/pop_control.inc",
+      "path": "simulator/common/pop_control.inc",
+      "source_sha256": "0fcb68d98126f536ff1d724ef2aaa5a99ec0589a4ad7663f17ebd89d9207d4ce"
+    },
+    {
+      "source": "simulator/phase18/offload.inc",
+      "path": "simulator/common/offload.inc",
+      "source_sha256": "527e37df7b262f56d280d751ffb4055e5fc3a1ce6e2e697e96b3584cf15909d3"
+    },
+    {
+      "source": "simulator/phase18/diagnostics.h",
+      "path": "simulator/common/diagnostics.h",
+      "source_sha256": "317973466b0b01bba2749e1e6f72bc8447e644efa212313516d2c05f1436c1f3"
+    },
+    {
+      "source": "simulator/phase18/controller.cpp",
+      "path": "simulator/common/controller.cpp",
+      "source_sha256": "fac78f67d698cccf9e30dcca5e04d1c91d3fb6b0bc6990becd671e9ccc296117"
+    },
+    {
+      "source": "simulator/phase18/hbm3_scoped.cpp",
+      "path": "simulator/common/hbm3_scoped.cpp",
+      "source_sha256": "689ae0b49aa43169f6f018d7c26e7e284b42601aff989fe492f8fccbb89b3856"
+    },
+    {
+      "source": "simulator/phase4/resources.h",
+      "path": "simulator/common/resources.h",
+      "source_sha256": "9ed3c430b469672baab8ae99881b3e001cb7dce4aa78201f06b10c7328c21646"
+    },
+    {
+      "source": "simulator/phase13/gqa_hw.h",
+      "path": "simulator/common/gqa_hw.h",
+      "source_sha256": "d7c5fc76c64e00d2b7dd6a775fcff1f4acf329edcda846f42683891a2d694963"
+    },
+    {
+      "source": "simulator/phase18/common_frontend.cpp",
+      "path": "simulator/dense/frontend.cpp",
+      "source_sha256": "2cc8850770d4a7db696e70925b4d46ab6fb389b8ea8c29f8a98664c27d1d3b9a"
+    },
+    {
+      "source": "simulator/phase17/common_frontend.cpp",
+      "path": "simulator/pop/frontend.cpp",
+      "source_sha256": "413702a51ea5dde487421bc4f8422e0eff3333bd27c46bf45faca7df4a95e170"
+    },
+    {
+      "source": "simulator/phase18/refresh_unit.cpp",
+      "path": "simulator/tests/refresh.cpp",
+      "source_sha256": "a399410a58f150dac8a50738e94bdc77c79b481eafa21cab7ec9b9c3f0b556ff"
+    },
+    {
+      "source": "simulator/phase13/gqa_unit.cpp",
+      "path": "simulator/tests/gqa.cpp",
+      "source_sha256": "1f0429f6a09979f2e04f04dfe1baa5f195e78391305ded1e97e65722cff99c10"
+    },
+    {
+      "source": "experiments/phase7/arithmetic.py",
+      "path": "poppim/numeric/bf16.py",
+      "source_sha256": "c78cbdc692e36016c057f87949b8ce57335c1d12f19aaa25cbebef7ba3a46eb5"
+    },
+    {
+      "source": "experiments/phase7/reference.py",
+      "path": "poppim/numeric/retrieval.py",
+      "source_sha256": "d4816e0d6ce451279204f4e0743bd5fe0f288db9a89e28ad43c104bdb40d17ae"
+    },
+    {
+      "source": "experiments/phase9/dense_reference.py",
+      "path": "poppim/numeric/dense.py",
+      "source_sha256": "c04c29dc1815f31469089317394a32c919a7476bad74e629de6b7956dcbcc0f3"
+    },
+    {
+      "source": "experiments/phase7/test_arithmetic.py",
+      "path": "tests/test_bf16_arithmetic.py",
+      "source_sha256": "4895e3ce6b6e2bbdee0318c87fa6caee34ce7d379bf8e42055355bdfcb6880b4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/main.cpp",
+      "path": "third_party/ramulator/src/main.cpp",
+      "source_sha256": "cf645533fed864c763e1c5f39b601f31adbe57361a3b193f72949b6064f793f4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/CMakeLists.txt",
+      "path": "third_party/ramulator/src/CMakeLists.txt",
+      "source_sha256": "7f99fb8d36289e7fc8fc9ad8d5cc5af88d0ce944d63652f80d0e2b895761b4f9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/translation/translation.h",
+      "path": "third_party/ramulator/src/translation/translation.h",
+      "source_sha256": "b1c46ee9931e85f3a632ebe0515f7e9593a5ae27b6009d804d775c4c9401cd04"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/translation/CMakeLists.txt",
+      "path": "third_party/ramulator/src/translation/CMakeLists.txt",
+      "source_sha256": "48f81876a0296e68c97365e92d9d0fe4df80ca0ef5207e234be9de309cbe76e5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/translation/impl/random_translation.cpp",
+      "path": "third_party/ramulator/src/translation/impl/random_translation.cpp",
+      "source_sha256": "990d2b81bf85a5deba042b7284da6c9923467e433ad4e042f44531f6f8130a34"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/translation/impl/no_translation.cpp",
+      "path": "third_party/ramulator/src/translation/impl/no_translation.cpp",
+      "source_sha256": "e2f7cae579064d74e7a4046ac7446c51eb5eea283c7b9b19ba694e1b2eac55c9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/test/test_impl.cpp",
+      "path": "third_party/ramulator/src/test/test_impl.cpp",
+      "source_sha256": "28ae15857c904b41b5bbd83efe320ee3bdc21550251222d6030bb60ea2b91162"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/test/test_ifce.h",
+      "path": "third_party/ramulator/src/test/test_ifce.h",
+      "source_sha256": "d43b427f60f520a70784e2213c716a08ed96a4429f846aec8669de5174f2138d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/test/CMakeLists.txt",
+      "path": "third_party/ramulator/src/test/CMakeLists.txt",
+      "source_sha256": "825761d82afc685a56ac3ba3c478046a1b1818302857df98ca886ac4896691b5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/memory_system/memory_system.h",
+      "path": "third_party/ramulator/src/memory_system/memory_system.h",
+      "source_sha256": "ad323f6eac8600e848ae91e0cc797dcec92671c3936a5364d55c724156186af2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/memory_system/CMakeLists.txt",
+      "path": "third_party/ramulator/src/memory_system/CMakeLists.txt",
+      "source_sha256": "a0f16e38c251f32c56067f4221d3692bbce5f297f29a3bde10856075affce993"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/memory_system/impl/generic_DRAM_system.cpp",
+      "path": "third_party/ramulator/src/memory_system/impl/generic_DRAM_system.cpp",
+      "source_sha256": "95cf5585217b01ac1bc4d6af60259d85ace3d859838899afe07f7419d3b4a3dd"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/memory_system/impl/dummy_memory_system.cpp",
+      "path": "third_party/ramulator/src/memory_system/impl/dummy_memory_system.cpp",
+      "source_sha256": "adbfce68e051f4648bfb6f769d689bba2bb2dd2891edd76a5b65d543349d155c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/memory_system/impl/PIM_DRAM_system.cpp",
+      "path": "third_party/ramulator/src/memory_system/impl/PIM_DRAM_system.cpp",
+      "source_sha256": "a952b3bdba9f32dfe2b8e22f5923355bb9fefeba42811c2a291a65d9b7814276"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/CMakeLists.txt",
+      "path": "third_party/ramulator/src/frontend/CMakeLists.txt",
+      "source_sha256": "f161ed49708f79a2acbb4fd5772f67dfb21c7ce0480dd050ea431a1f28d66631"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/frontend.h",
+      "path": "third_party/ramulator/src/frontend/frontend.h",
+      "source_sha256": "526df2d4095234419709aae87ab9a931a4a2f73eb9eb83a2d5f1505ffb971d22"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/processor/simpleO3/trace.h",
+      "path": "third_party/ramulator/src/frontend/impl/processor/simpleO3/trace.h",
+      "source_sha256": "2f79e1d9f74e24e4412ecfd7bf81132f366db90e35773423d6f0eda4b746195a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/processor/simpleO3/trace.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/processor/simpleO3/trace.cpp",
+      "source_sha256": "c95f05f08aa0df6cfae3a770cda0b5e6356ee4ed191192d3851121850ece3417"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/processor/simpleO3/simpleO3.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/processor/simpleO3/simpleO3.cpp",
+      "source_sha256": "ce50429a303f62827301f6b3921efe4c2f77566856c0a661b03534e22b44c3d4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/processor/simpleO3/llc.h",
+      "path": "third_party/ramulator/src/frontend/impl/processor/simpleO3/llc.h",
+      "source_sha256": "48362d5e07f34c2b907e5811b8461a546529ebc694ec052f7b83a7e26eadf713"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/processor/simpleO3/llc.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/processor/simpleO3/llc.cpp",
+      "source_sha256": "9fc96605ee4d631fe3a702e606893d8cea2d3fe986aaac48dd6a915286fb963e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/processor/simpleO3/core.h",
+      "path": "third_party/ramulator/src/frontend/impl/processor/simpleO3/core.h",
+      "source_sha256": "88cafacd6a33c9d5dc2c8cc18b64a762c7f7ad90a2c7fe58325cef7fdbbb0eaf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/processor/simpleO3/core.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/processor/simpleO3/core.cpp",
+      "source_sha256": "93dd0486e5c3367027faa6d1523f1c3bf83d13c3ce8fc1b83bfd40ed57a53f0f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/memory_trace/loadstore_trace.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/memory_trace/loadstore_trace.cpp",
+      "source_sha256": "48272b880bef7a7935057497a589a1635c2dc666fdd90e1278d808ada3a6d6e1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/memory_trace/pim_loadstore_trace.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/memory_trace/pim_loadstore_trace.cpp",
+      "source_sha256": "847433454cf59a7ef09c0a724e523508ff4dfd002cb2bdecb500390743752a64"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/memory_trace/readwrite_trace.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/memory_trace/readwrite_trace.cpp",
+      "source_sha256": "1d485c6ba348f564b30c80ef67f1f154ac88b3b6f9fd449c3fa90e7f5171eb8a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/frontend/impl/external_wrapper/gem5_frontend.cpp",
+      "path": "third_party/ramulator/src/frontend/impl/external_wrapper/gem5_frontend.cpp",
+      "source_sha256": "4768775d1a3b81daba53124f5302edf5ec5d38bc008c2091343e30d1e71b7e26"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/example_ifce.h",
+      "path": "third_party/ramulator/src/example/example_ifce.h",
+      "source_sha256": "1aefa7ea1e52fea6174b13df4fcb95010e623a631432cc1257e202ca118954a7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/CMakeLists.txt",
+      "path": "third_party/ramulator/src/example/CMakeLists.txt",
+      "source_sha256": "464d84a9bbbca5d0dbf9c170c247cc371e4d8ebb6f7ba2ad0410de495f32feaa"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/impl/yetanother_impl.cpp",
+      "path": "third_party/ramulator/src/example/impl/yetanother_impl.cpp",
+      "source_sha256": "6f5c557b179780de0d26140525894af29b240aeaf50b83032215204a308ef871"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/impl/example_serialization.cpp",
+      "path": "third_party/ramulator/src/example/impl/example_serialization.cpp",
+      "source_sha256": "fbdb372ac73d088a5711c46d8b2e53fd8ae6c355e029de5bc7ac9de4f446e392"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/impl/example_impl.cpp",
+      "path": "third_party/ramulator/src/example/impl/example_impl.cpp",
+      "source_sha256": "cbcc17af5bed07f7b1cd5c17dc6f3042ccf00a81e85557987a358ad88681d25c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/impl/complicated_impl.h",
+      "path": "third_party/ramulator/src/example/impl/complicated_impl.h",
+      "source_sha256": "b735007e805cea40c703a1bee78a14227411015c374c8d0d228bc84354a31d65"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/impl/complicated_impl.cpp",
+      "path": "third_party/ramulator/src/example/impl/complicated_impl.cpp",
+      "source_sha256": "9d2a1887aaba82a2e608a9efb45bb276821b5ef7819912297e3ccb3e50387046"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/example/impl/another_impl.cpp",
+      "path": "third_party/ramulator/src/example/impl/another_impl.cpp",
+      "source_sha256": "1fa33c0e667661695688a881fd7eb81fca472ca264116c0308a6c7dffb5fa573"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/controller.h",
+      "path": "third_party/ramulator/src/dram_controller/controller.h",
+      "source_sha256": "db3ebf9c5ab7d1426c490c46614d535de496fe54c28b00821d1be4d13f1f7cf0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/CMakeLists.txt",
+      "path": "third_party/ramulator/src/dram_controller/CMakeLists.txt",
+      "source_sha256": "2dce379ab8c63bfa387922aa2866f72067edc31c6b32259dfa2d71151991998d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/scheduler.h",
+      "path": "third_party/ramulator/src/dram_controller/scheduler.h",
+      "source_sha256": "875a966db1c219a7676b5bdaf6d008720c302d2e525b3390a9bd2020145e98be"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/refresh.h",
+      "path": "third_party/ramulator/src/dram_controller/refresh.h",
+      "source_sha256": "1901efe332e7f47e1d2460c5592b9e7833307028e90112cf0c5d6aacbbc3cf47"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/plugin.h",
+      "path": "third_party/ramulator/src/dram_controller/plugin.h",
+      "source_sha256": "334448f98dff61108f46ef8e0c3a723a7d4afa1bad4273a9ea4f088241c2c78e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/generic_dram_controller.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/generic_dram_controller.cpp",
+      "source_sha256": "1805c1f387e2b18a80ad4820fbf5d96e8f852e47bfb3554f21c57431da1b04e0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/dummy_controller.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/dummy_controller.cpp",
+      "source_sha256": "80ab258a190c601d4b0a31e543635d1abaf4560ca84d3ce526628883702f0903"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/hbm3_pim_controller.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/hbm3_pim_controller.cpp",
+      "source_sha256": "c610f8aaba62b060958386e5f1b2df9eafc136511a712d2686c5764ffad4ed6b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/hbm3_controller.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/hbm3_controller.cpp",
+      "source_sha256": "e9417f5a654c17e1578928ad3961e20459d82422355c902b82d10685b1dd7924"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/scheduler/generic_scheduler.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/scheduler/generic_scheduler.cpp",
+      "source_sha256": "8b79fb7b4fc0f8a2bae6ba8f00dbebc1d6ae9b9535fab3baaa26bdb15e0a24b0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/scheduler/pim_scheduler.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/scheduler/pim_scheduler.cpp",
+      "source_sha256": "be8cb800438931b0f7fc69818264b7967d5d41bfc7406018edad2ee6453e7ec2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/refresh/no_refresh.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/refresh/no_refresh.cpp",
+      "source_sha256": "9ec3a05a3bd0f1578c9c30816b0b1081f06e9008523dc0eb4ba37fa9d3879ad1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/refresh/all_bank_refresh_hbm3.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/refresh/all_bank_refresh_hbm3.cpp",
+      "source_sha256": "58c20a723e01d04b529df52b944f44c7c59ace9db9db8acd9814c8b09f364acf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/refresh/all_bank_refresh.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/refresh/all_bank_refresh.cpp",
+      "source_sha256": "5ad610a8620f086277eba58a39d36bf57de51856262b87fc555b2bfc67af8cbe"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/hbm3_trace_recorder.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/hbm3_trace_recorder.cpp",
+      "source_sha256": "0b28b72a8a1afd33821fbe9fda8e4797dca4cfe84a8166544ed69071402f0010"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/oracle_rh.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/oracle_rh.cpp",
+      "source_sha256": "dc95769ba4e9f1ec2141e4a92a1ceffd4f9fe5eee28ebc4a27434ab0fffe1a8e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/twice.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/twice.cpp",
+      "source_sha256": "5801db02d08cdada6d289629f4e9439c8c960815d5062da54716c93e7fba96d8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/trr.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/trr.cpp",
+      "source_sha256": "e76719f99cd2c7bd04298121d167b9b97a33d8ca3ea9347f81dbf0b57640b265"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/trace_recorder.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/trace_recorder.cpp",
+      "source_sha256": "9917313ba7a8532a011a89dcc4498c1a1f9681a272c990b01d153491ffd85dea"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/rrs.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/rrs.cpp",
+      "source_sha256": "4577d9667269165514fa7a5efa2f07439e671b79c87e733390083f5da13599e3"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/para.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/para.cpp",
+      "source_sha256": "185ec90b524ea565e4a00998fb69700e829c34740eedf8981a79d6cf9ea5e257"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/hydra.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/hydra.cpp",
+      "source_sha256": "89ea75d0ed14c1196d71eb839051a4d2a6c224d16204c4f27385e0b54f5c87c7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/graphene.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/graphene.cpp",
+      "source_sha256": "4d6e1512a503a8c39226cd84fbe8efc95d15fa943be8837197a49f40a432e6a9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram_controller/impl/plugin/cmd_counter.cpp",
+      "path": "third_party/ramulator/src/dram_controller/impl/plugin/cmd_counter.cpp",
+      "source_sha256": "c2c68f76c57135b767ccf47a74d414e47da73fe5f803b2c24bfaf6c939059469"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/CMakeLists.txt",
+      "path": "third_party/ramulator/src/dram/CMakeLists.txt",
+      "source_sha256": "37229a641930f93280c243a697b2be45772fbf818e982864169c4c46d9ae65ca"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/spec.h",
+      "path": "third_party/ramulator/src/dram/spec.h",
+      "source_sha256": "2edf65c237be48a9ccf2fc13e1c0a42f5a3e589e1d4de5bc86b283c7defaa110"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/node.h",
+      "path": "third_party/ramulator/src/dram/node.h",
+      "source_sha256": "d162f3a6d3d930e8f48505d0b2bba4eec4919266bcfaeca67a3ec4fa431ab226"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/lambdas.h",
+      "path": "third_party/ramulator/src/dram/lambdas.h",
+      "source_sha256": "d072d1cfd1a8483281d6be6b33a5c6e13bb858f65660aba6243351ca17d01fda"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/dram.h",
+      "path": "third_party/ramulator/src/dram/dram.h",
+      "source_sha256": "e81f34b0760425878ac769102d5808444504075ee4e70f0379f5f0c4a2bacd6b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/lambdas/preq.h",
+      "path": "third_party/ramulator/src/dram/lambdas/preq.h",
+      "source_sha256": "e9cfe31f53eceeb488aae9ceb56af90a2b1accbfd75dc94533eb2d916cd67914"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/lambdas/action.h",
+      "path": "third_party/ramulator/src/dram/lambdas/action.h",
+      "source_sha256": "fd8a16a08ae8a0af0c502784228693aa9c02a3a1d83775ec3f32eaa4eb9b4921"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/lambdas/rowopen.h",
+      "path": "third_party/ramulator/src/dram/lambdas/rowopen.h",
+      "source_sha256": "4534d50a55c9046b541cc18a6748d5a387448054fd98bfe88d225e4c96489cc4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/lambdas/rowhit.h",
+      "path": "third_party/ramulator/src/dram/lambdas/rowhit.h",
+      "source_sha256": "749f99b41d329a5425bb67548e79decf527e1f262df8a3bbad315d5560f0e16b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/HBM3.cpp",
+      "path": "third_party/ramulator/src/dram/impl/HBM3.cpp",
+      "source_sha256": "8866798742e44476671b15224ef39ff693eef6803cdf44d87b0c5bd97e5a2a21"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/HBM3-PIM.cpp",
+      "path": "third_party/ramulator/src/dram/impl/HBM3-PIM.cpp",
+      "source_sha256": "c9255cec93f8d4f61e9688d228be53f358e81d79a338d0b532260b01899f5e13"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/LPDDR5.cpp",
+      "path": "third_party/ramulator/src/dram/impl/LPDDR5.cpp",
+      "source_sha256": "8250f4a16921f5ec306cc60c9864a95841ae79d114b78e64a9ccec673b0670b5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/HBM2.cpp",
+      "path": "third_party/ramulator/src/dram/impl/HBM2.cpp",
+      "source_sha256": "eb95a11e5bb9ddd67e4782959118aac3fa8995704b1a7902a9b52366a0b7907d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/DDR4-VRR.cpp",
+      "path": "third_party/ramulator/src/dram/impl/DDR4-VRR.cpp",
+      "source_sha256": "84626a848cae7146132e36d3bc46bee3791344ef2c71969749a2406b02ef2c26"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/HBM.cpp",
+      "path": "third_party/ramulator/src/dram/impl/HBM.cpp",
+      "source_sha256": "3a388214cef10269964fd5ba36a499572bf835e0df0724850b2a3a12480c9504"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/GDDR6.cpp",
+      "path": "third_party/ramulator/src/dram/impl/GDDR6.cpp",
+      "source_sha256": "d777fb535fc0540a1b2dbbc197baed2d5b65dffa7efebd52ab77166b2f168fbe"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/DDR5.cpp",
+      "path": "third_party/ramulator/src/dram/impl/DDR5.cpp",
+      "source_sha256": "dfafe50f3f23b7821df19dc55b11933de9a2063725ec352e7a08a60e05d6fa88"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/DDR4.cpp",
+      "path": "third_party/ramulator/src/dram/impl/DDR4.cpp",
+      "source_sha256": "b85f67de5bc9495f91ea51112c0ce5b9396c4e35473e219b6f06821e9d9aa5cc"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/dram/impl/DDR3.cpp",
+      "path": "third_party/ramulator/src/dram/impl/DDR3.cpp",
+      "source_sha256": "acb92cb2505b3624fff7d0fb57fc036f0f0791ede784454a84abd2a0e34e20e2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/request.h",
+      "path": "third_party/ramulator/src/base/request.h",
+      "source_sha256": "e5488cf74a6770ddb22a1f9d3708fad067c9511f1455ac99a6ecc6dc9e197d38"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/base.h",
+      "path": "third_party/ramulator/src/base/base.h",
+      "source_sha256": "56f550eef74c6e3e588ab53e20c811324a2df818c2b438fde18c1669dae09bb9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/utils.h",
+      "path": "third_party/ramulator/src/base/utils.h",
+      "source_sha256": "a6158477a34d200b4c549f47a159089314e4bfb36e9e808e8aaaa9b56c4dc744"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/utils.cpp",
+      "path": "third_party/ramulator/src/base/utils.cpp",
+      "source_sha256": "e5be936a5c5cc3fec759d3fb6173940d04c6be23e7324a7d003855e24b58cc67"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/type.h",
+      "path": "third_party/ramulator/src/base/type.h",
+      "source_sha256": "97a317fe6f7063553025234259d25e81df8874408e2bd3a86b2e359d232a910f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/stats.h",
+      "path": "third_party/ramulator/src/base/stats.h",
+      "source_sha256": "5892927523c7e1784a7c5179704f1c0e87a3ebb01815e9f47470abe560ba5cea"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/stats.cpp",
+      "path": "third_party/ramulator/src/base/stats.cpp",
+      "source_sha256": "063c16db3f7817b061ca58e3bdcb513a17ee2146facaedfd5b12fa98d014da02"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/serialization.h",
+      "path": "third_party/ramulator/src/base/serialization.h",
+      "source_sha256": "1e850656b8d8619f4f1beff7d27d9d8099ba393e121deebb1cac886b9f925431"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/request.cpp",
+      "path": "third_party/ramulator/src/base/request.cpp",
+      "source_sha256": "23d707795dbea918f441b4c27399325392fc077642de96a49cf400f3c30c639d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/param.h",
+      "path": "third_party/ramulator/src/base/param.h",
+      "source_sha256": "107dfef5c8c5e9e55058447a4d37521c4b424f52cabb7b333a618da813f6ae1a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/logging.h",
+      "path": "third_party/ramulator/src/base/logging.h",
+      "source_sha256": "70009d33d755e4ddefae603205bad60e96f9d7a0d22fb51fb1148a13c32619cc"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/logging.cpp",
+      "path": "third_party/ramulator/src/base/logging.cpp",
+      "source_sha256": "72cdca2005887768d0fd877786336056d757cb36431fcfc1fd9f940a1a1661d3"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/factory.h",
+      "path": "third_party/ramulator/src/base/factory.h",
+      "source_sha256": "b7fe0fce5e621a686fa500240723be82faf6436c514245fa7c48f5e8503cdf2a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/factory.cpp",
+      "path": "third_party/ramulator/src/base/factory.cpp",
+      "source_sha256": "c83810cee12ca83877372ce9e6556d897ce2721347debe4656afdb152b6fbd5a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/exception.h",
+      "path": "third_party/ramulator/src/base/exception.h",
+      "source_sha256": "cb94a0d2f558335f4fcddbece6946d4f516d81ad54c98ba465859c24126de0d5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/debug.h",
+      "path": "third_party/ramulator/src/base/debug.h",
+      "source_sha256": "29dcc9a146fa9d28aeb162ab9d131198b784f84c5e1c82b8e9454a2d0767fe38"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/config.h",
+      "path": "third_party/ramulator/src/base/config.h",
+      "source_sha256": "3a78d9bad1db94d1e83a2cd00b0b652ed121563dd31dda26fbaab019b1220dae"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/config.cpp",
+      "path": "third_party/ramulator/src/base/config.cpp",
+      "source_sha256": "246f609e8bd4ed97b8461cf90f1f2422750873f40917460ebbcd8628c844965d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/clocked.h",
+      "path": "third_party/ramulator/src/base/clocked.h",
+      "source_sha256": "0575e66b604eb8149bc0af1f09d84fbaee90266541f381924dfb3d4095b84621"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/base/CMakeLists.txt",
+      "path": "third_party/ramulator/src/base/CMakeLists.txt",
+      "source_sha256": "74c9da56a6ef4df794e339a6a30d3d27c1380bce8da1e943817d986f6fb12ce7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/addr_mapper/CMakeLists.txt",
+      "path": "third_party/ramulator/src/addr_mapper/CMakeLists.txt",
+      "source_sha256": "c173ed3badc3f09a72d3f5ea94c47b0ff68e9ce23dae17f03ec8bcc7d3f4cf9d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/addr_mapper/addr_mapper.h",
+      "path": "third_party/ramulator/src/addr_mapper/addr_mapper.h",
+      "source_sha256": "ba7705cc29b0359c719a75ccb2169684db1f30f56cfba7a97f367ec0fd2d03bc"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/addr_mapper/impl/linear_mappers.cpp",
+      "path": "third_party/ramulator/src/addr_mapper/impl/linear_mappers.cpp",
+      "source_sha256": "65cb5416bd1dd2f067c28a1c14f4815eaa83e81210fa8fca06e3da0941a45c4e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/addr_mapper/impl/hbm3_pim_linear_mappers.cpp",
+      "path": "third_party/ramulator/src/addr_mapper/impl/hbm3_pim_linear_mappers.cpp",
+      "source_sha256": "05a3403d4d1c11102361ec3a6a67502a1559234e1218ddd4ed148bdb873bccd1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/addr_mapper/impl/hbm3_linear_mappers.cpp",
+      "path": "third_party/ramulator/src/addr_mapper/impl/hbm3_linear_mappers.cpp",
+      "source_sha256": "c789fd1ef8e79d4ea6bbb3cfd11a54c5f9d92bf688c5e0eb065c3e517abc5651"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/addr_mapper/impl/rit.h",
+      "path": "third_party/ramulator/src/addr_mapper/impl/rit.h",
+      "source_sha256": "53258bc5f1e7cc96d3fc1471022ca51c979d9c6ca265af1d4d3e392335294ef5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/src/addr_mapper/impl/rit.cpp",
+      "path": "third_party/ramulator/src/addr_mapper/impl/rit.cpp",
+      "source_sha256": "33dbc7eb6faea2e4da3160dda19a73aac2a326a73cd4d99e34535716be575f4f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/LICENSE",
+      "path": "third_party/ramulator/LICENSE",
+      "source_sha256": "74a1f19701bb06cb80b4ec31e6de6472f5fd767e5949c1c4d51f70007d18b3f2"
+    },
+    {
+      "source": "third_party/attacc_simulator/LICENSE",
+      "path": "third_party/ramulator/LICENSE.AttAcc",
+      "source_sha256": "89e78a789b21f2fc808a6833d4dcd720366744d582f88f76765c84e6a9bb8092"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/yaml-cpp.pc.in",
+      "path": "third_party/ramulator/ext/yaml-cpp/yaml-cpp.pc.in",
+      "source_sha256": "de52ef38f07fb335431c01930a03d256505b3685e4252b24e0f1e8f32c9acdd0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/yaml-cpp-config.cmake.in",
+      "path": "third_party/ramulator/ext/yaml-cpp/yaml-cpp-config.cmake.in",
+      "source_sha256": "5d4849c6721e13217cec7aa021a00872a64f983e8e6ffab2d7476d55c3827fca"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/install.txt",
+      "path": "third_party/ramulator/ext/yaml-cpp/install.txt",
+      "source_sha256": "fb3eaf17b1130633a596e802613e424e0a6c77bc95761b8ce9a98f02208cd2eb"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/appveyor.yml",
+      "path": "third_party/ramulator/ext/yaml-cpp/appveyor.yml",
+      "source_sha256": "f9981a1580ce391ad6e264ee2ea4280efd73e425c4a78807a66557460ad22584"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/WORKSPACE",
+      "path": "third_party/ramulator/ext/yaml-cpp/WORKSPACE",
+      "source_sha256": "2a1dd669207693e233554e3e707010e58217f94f668902074285c9f2917c3b21"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/README.md",
+      "path": "third_party/ramulator/ext/yaml-cpp/README.md",
+      "source_sha256": "06a68f10cd624e8a5175bc9bfc4e2ce0f7e1614a6790c3694399bee53cf60855"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/LICENSE",
+      "path": "third_party/ramulator/ext/yaml-cpp/LICENSE",
+      "source_sha256": "aa6fcc27be034e41e21dd832f9175bfe694a48491d9e14ff0fa278e19ad14f1b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/CONTRIBUTING.md",
+      "path": "third_party/ramulator/ext/yaml-cpp/CONTRIBUTING.md",
+      "source_sha256": "4b8c621e6fc5de076b35554e9c1983d708479e14163369e8e183a52ba62acd49"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/CMakeLists.txt",
+      "path": "third_party/ramulator/ext/yaml-cpp/CMakeLists.txt",
+      "source_sha256": "b525e5de2597c46c389be22e12d783dab9af94336b4e977604fb90075139c5e9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/BUILD.bazel",
+      "path": "third_party/ramulator/ext/yaml-cpp/BUILD.bazel",
+      "source_sha256": "6e655caa132eeb26b4a11ed6c597f1077e5b85a5f4ee353cdd67e96a0b92b960"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/.travis.yml",
+      "path": "third_party/ramulator/ext/yaml-cpp/.travis.yml",
+      "source_sha256": "106d288fa5a374e2918bff4dda732741fb7bb0c833959893bd592f8d9f37ef5d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/.gitignore",
+      "path": "third_party/ramulator/ext/yaml-cpp/.gitignore",
+      "source_sha256": "870f15f0ef3a9b17a194062396eb071e6e9b55e10d9413c221a6fa352ed2ad2d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/.codedocs",
+      "path": "third_party/ramulator/ext/yaml-cpp/.codedocs",
+      "source_sha256": "573c4d572a456b75aa4a9dd38b31cec1866415e136b8cd9dd60c8161397b2d86"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/.clang-format",
+      "path": "third_party/ramulator/ext/yaml-cpp/.clang-format",
+      "source_sha256": "6d5856ee6f037b7f6c49b7cdb5045b21c1eda3fe1990cd869fc16dedf9b30931"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/util/sandbox.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/util/sandbox.cpp",
+      "source_sha256": "367e541283723f71f0ba2ba71daf096da52e002b68ced371f468494b3af064a3"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/util/read.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/util/read.cpp",
+      "source_sha256": "a216e1fde99559f0835553a3209b0dfa359f4b755bda879edad7236e802aea1d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/util/parse.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/util/parse.cpp",
+      "source_sha256": "31546c2bf36415b78617ea5edd0538fa11d8f5d9cf60b3ed24d82b33fdad0f06"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/util/api.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/util/api.cpp",
+      "source_sha256": "458c49ad1dfe891cdd817423056defa9dbf853cb4c185cb6731d9f8c37605585"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/util/CMakeLists.txt",
+      "path": "third_party/ramulator/ext/yaml-cpp/util/CMakeLists.txt",
+      "source_sha256": "62d3a646732e472cc6044b383a3d417af5e0f8ce145b083ff8901db39d4bd09b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/token.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/token.h",
+      "source_sha256": "6e9701cf218ed9e6080c2497e9b48faced439325478a2d7b2aa6048f851166d2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/tag.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/tag.h",
+      "source_sha256": "c374fdcd13bc907265be4e1e876943a3b4d931ef0778c76b1a03c8d03a32d88c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/tag.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/tag.cpp",
+      "source_sha256": "1fb0f0778238ea3c2e79f1057dafaa48043bbc7f1c37756759809257f0584733"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/stringsource.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/stringsource.h",
+      "source_sha256": "3fb078773082339ab19042d5e448e789c30522fc2f927fc6ca65f9ee154826eb"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/streamcharsource.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/streamcharsource.h",
+      "source_sha256": "77f4ccea3594ae12ffd58baa8dd56dc2153fc655050dc83e2fcc475e066be2b2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/stream.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/stream.h",
+      "source_sha256": "47b81c098e695c955e292f614832eebac22b1d5ba1a676d2eb7e591f9ba9d9a4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/stream.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/stream.cpp",
+      "source_sha256": "a7c2e1182d20c487e26cf3d05219be2f7e8e1510504ac4253ead866fc34370e6"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/singledocparser.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/singledocparser.h",
+      "source_sha256": "859345e1aac5595ef5939df76347f29a90290adbe8e139a0c2833a3426012e07"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/singledocparser.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/singledocparser.cpp",
+      "source_sha256": "e2a87d150505ea331fcbad10d3f2e20f6133b6ca875b4efdb3ac019230b3edb8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/simplekey.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/simplekey.cpp",
+      "source_sha256": "7ea8e9ad62a1cb33a7f2eab57bbc5f7ed90b0f795b170fd90736d0d36750699e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/setting.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/setting.h",
+      "source_sha256": "c1291c5a7e46242876edc9c76f6975e6c4cabcff45bb89d88f50a1c6f9ff893b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/scantoken.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/scantoken.cpp",
+      "source_sha256": "bdabf2ecfa73f86cbe6c6381a20e6f33592969d19fe749477d09b6e52f20a67d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/scantag.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/scantag.h",
+      "source_sha256": "6960b01908f737c0e1b16eb8ba9da01e06d8140e4b1913e1fb647bbbc1266872"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/scantag.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/scantag.cpp",
+      "source_sha256": "40d8fd0eee4196e66db8d6e38ba7071589761f68c47a43c30a551c9cfbcc83ca"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/scanscalar.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/scanscalar.h",
+      "source_sha256": "d19e4ed5fe7f24b75791185167bb69510076a5da087487acc9f4a0db9853b0fe"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/scanscalar.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/scanscalar.cpp",
+      "source_sha256": "1291d1a3f3cf3c04b1883ae50850b2a9d2e023144e023d1079d459437657ce8f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/scanner.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/scanner.h",
+      "source_sha256": "70a0c3798942ce6dc7654b0a6add12451980e18e8a79b47600041d753f639b8b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/scanner.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/scanner.cpp",
+      "source_sha256": "dad060f23ddcd03c91ac63f0b13025a46a7eaab1ef7e7af3d53d101936c1db20"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/regeximpl.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/regeximpl.h",
+      "source_sha256": "b512b145c127d798a5fc6369c81c224c3fa69d0b0c9120fecc17cac493c36993"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/regex_yaml.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/regex_yaml.h",
+      "source_sha256": "26f8f1a1739bde3d01629f9dc38b33db00f8057f17cdf26ebe3dfed3dcff90f8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/regex_yaml.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/regex_yaml.cpp",
+      "source_sha256": "d01856e2d05041080a46c8be7659ddce9f7b02aaad597610c466901ac2a7673c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/ptr_vector.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/ptr_vector.h",
+      "source_sha256": "e6a2fe024363eef1f3ca5060757222b472998046e7d955daf8d434b3ce63d9e2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/parser.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/parser.cpp",
+      "source_sha256": "853c6f5fe06326071b3645c6d9405cecb3a24e4157815f8b8716521630896491"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/parse.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/parse.cpp",
+      "source_sha256": "21e8a83a9ef77fe43eb1fe2ff461408a2fb38a8d5f854cb165718237d13f0555"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/ostream_wrapper.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/ostream_wrapper.cpp",
+      "source_sha256": "b8fc7b2385d7c5b089a7c39a54d5f688469273e529beb0bc1b3adda316385b04"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/null.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/null.cpp",
+      "source_sha256": "642d21d9875ba5de620a1c39412e91284fbfb421a626c24dea53e5d326e6336e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/nodeevents.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/nodeevents.h",
+      "source_sha256": "6741f8a61bb1c30ed833ca0347bd520ad8dcde5d11f5f7f9b95df900e966c126"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/nodeevents.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/nodeevents.cpp",
+      "source_sha256": "487513c91abed800a3a629ba4c12417551ba81cbe57528371adc3bc6dd6628bf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/nodebuilder.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/nodebuilder.h",
+      "source_sha256": "eb18f93af9833eb1cda1d14e36b7ce1ecd5e2d2e3cc235df7477825475187181"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/nodebuilder.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/nodebuilder.cpp",
+      "source_sha256": "24690ce2899dd3088952dcbb8c32169a9662c7ab728c2e0feb8e5026a61e0ed3"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/node_data.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/node_data.cpp",
+      "source_sha256": "607e3c9d02a9b30944c9350a41b2ac73045e9c19044ba326790aece6b8546296"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/node.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/node.cpp",
+      "source_sha256": "a4692db767050cabdd0ff79e4c5cd116cf11adace2d673dd102e67e68f5fd082"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/memory.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/memory.cpp",
+      "source_sha256": "660ebb1cc9db9424d9ea0743a5297a899655cad3803206dfd922b5bc2914df65"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/indentation.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/indentation.h",
+      "source_sha256": "4e4feba2a4b0a336d34e3bfd58c211596490927d6a5d3f6ec1f5d3f102d0fc34"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/exp.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/exp.h",
+      "source_sha256": "4b4bfbf220804cbdff125963b91d013babcb185c0512fc652dae9d970fb5e3e3"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/exp.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/exp.cpp",
+      "source_sha256": "b85b2c3a2c00634f7d3ba8803b13e37394eb48d80656e2aaa003e1099d4e853e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/exceptions.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/exceptions.cpp",
+      "source_sha256": "525402dc6450163cca1ce613a3d719fd05bfe9f04653a8b4850888421f0b167b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/emitterutils.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/emitterutils.h",
+      "source_sha256": "38bdb2531774c63fccbc4a275068d38897c6fc3f0c7e18a9f5a60e84073f5208"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/emitterutils.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/emitterutils.cpp",
+      "source_sha256": "f7f4b6a9b6659c4dc05c6f08654b0fa389bcd87e229146ace55f48afed799383"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/emitterstate.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/emitterstate.h",
+      "source_sha256": "a9bf90d4888fa59d978298bf088bccbaf00e5b30bc0617453faf74e866c8a96a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/emitterstate.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/emitterstate.cpp",
+      "source_sha256": "ed74eab62af8da09a24009d7dcd24585d8187bc8255bac2c492051954d30caa1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/emitter.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/emitter.cpp",
+      "source_sha256": "01a8146a2ed0a8b4860e9e759ccfe03746a232ed1ed287ef4e319487e8efbb20"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/emitfromevents.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/emitfromevents.cpp",
+      "source_sha256": "71809cca4cbd3852dde2b669674b33efbb2723d9da70ae2731c2e8a29894189f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/emit.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/emit.cpp",
+      "source_sha256": "9eda6c78fe667e00d8ab3bddedd818d2cdfade6c0bef4b6e530fb4975520d4d9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/directives.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/directives.h",
+      "source_sha256": "a3c20ba74d6827181bb5aacbfe94283d52e41736e9a8347a8503a97b3ea73879"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/directives.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/directives.cpp",
+      "source_sha256": "23916f08b5c13dc9ae1d60af6585eab972490d71538e4d17a379a0fc32ecc3be"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/depthguard.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/depthguard.cpp",
+      "source_sha256": "bc2a38fe6345fdc26ef49ed22a62992c88098c2656e0dd89fa6a5b400d10b07e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/convert.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/convert.cpp",
+      "source_sha256": "5f5a78dd9d3af335305a6cf4ec5ac5449f1957e974bef4ef6d4bfe12c5052c1c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/collectionstack.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/collectionstack.h",
+      "source_sha256": "c3e0c036f2e771b2f7e92fcb0ea73dd8273d61066ed1cd18f7ffcd38295e204a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/binary.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/binary.cpp",
+      "source_sha256": "884ec808d4ebe7aec4b0bb4ab9c8c4f815d0038021a0f4878b7ef83e75541dcf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/contrib/yaml-cpp.natvis.md",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/contrib/yaml-cpp.natvis.md",
+      "source_sha256": "1151d88aa10e6ea62b346a653c5378b4cadc0971070498a38d759514a95e3f66"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/contrib/yaml-cpp.natvis",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/contrib/yaml-cpp.natvis",
+      "source_sha256": "6ac9ea8ed90dc0537e140b417cbcd186aa2b541ab58812b1292d6c88a0f4a9e2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/contrib/graphbuilderadapter.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/contrib/graphbuilderadapter.h",
+      "source_sha256": "6209296a63240eade999ab365f873cac28d41d50a757ee3ea96d5d831ae7261a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/contrib/graphbuilderadapter.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/contrib/graphbuilderadapter.cpp",
+      "source_sha256": "af052df5c3715962b3a5121e35ffae6bda488d8acdea3475fbf287ac21fafa5f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/src/contrib/graphbuilder.cpp",
+      "path": "third_party/ramulator/ext/yaml-cpp/src/contrib/graphbuilder.cpp",
+      "source_sha256": "7ae64ca7777fdd564702bbbac24dfd2b5f35924bb86f53e8830b4e6cf8ab16d8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/yaml.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/yaml.h",
+      "source_sha256": "946643e99e2f865887852f838a66130c54ed770645a73f2c5f8b71b9bb2b1488"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/traits.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/traits.h",
+      "source_sha256": "b77debdabef8cfac8614b4a4e4c4ab1016e37f0eda1061b7907b216215ec4e79"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/stlemitter.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/stlemitter.h",
+      "source_sha256": "0757d307e863f57cee50b3bfc8d657b5fb49e9431918b4e38a433827a57ef68d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/parser.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/parser.h",
+      "source_sha256": "a954930f86e865fcea885e1b65d35feb25f6d5fceb27cccb406425c354cda1af"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/ostream_wrapper.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/ostream_wrapper.h",
+      "source_sha256": "43bd5094bdf5fb1bd64a3081e372336b2ea410effd86fd910fd5d96b91f586c6"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/null.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/null.h",
+      "source_sha256": "b81505857f24e1e5940fe8c98a0ebc5aeb6a88ec8ab735dd800692d869904511"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/noexcept.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/noexcept.h",
+      "source_sha256": "67280724ff2528ac4cc9863db5770216a6bd467a35a2e8b067f43b92d7c278d7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/mark.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/mark.h",
+      "source_sha256": "069033be17c7a5875817102f3f77538431afdb7d1834a4673bad6a7267f0cab5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/exceptions.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/exceptions.h",
+      "source_sha256": "ad459042232c3b85be9e3b56958e9c15c72a59866f277905d7d4f328b0b8914a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/eventhandler.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/eventhandler.h",
+      "source_sha256": "0a91628a17a18d58b71154c595cb7d31c3cd6208cccae670b245fd730f0f8d66"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/emitterstyle.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/emitterstyle.h",
+      "source_sha256": "ff854b2abd44bbb7c3a0f0e557068d2613e6a9dbcbf38ccd563942a7bb0ff1c2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/emittermanip.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/emittermanip.h",
+      "source_sha256": "a40e08ab89d74171ec259e0dea7470ff29eacf9e5de90dd8b89042d0e47eb1d4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/emitterdef.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/emitterdef.h",
+      "source_sha256": "58d709085b46f31eef29fd8074d1c6d1657d3ebd4fb393b1c06a73cef69e6e48"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/emitter.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/emitter.h",
+      "source_sha256": "db41147539d4483995ebbea2481b1c42892df83679fd7e2aee0b5aeb0e403c25"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/emitfromevents.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/emitfromevents.h",
+      "source_sha256": "3eb5e3c9dd75d3dd12f19b8e42d49bf3cfcf4c41ee65eb0e4fec5217fcfc22b4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/dll.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/dll.h",
+      "source_sha256": "703de0a2406b0206ce265e6a4f7de4813796eaccdcf7f47dda326bd8dba673f5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/depthguard.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/depthguard.h",
+      "source_sha256": "1471521778b70c549e057a38c56b11a42a4aa4d666e3fbb5f80e9ac90b9f610c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/binary.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/binary.h",
+      "source_sha256": "1be5b37a45f0e1eb0c2dbd6aa3093363171d5149e89e0830c5a56e0eea0eac4a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/anchor.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/anchor.h",
+      "source_sha256": "e1674864314ce7a1d78c71d37b60ec6c130fc352ed178bd9b8467928774b1be8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/type.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/type.h",
+      "source_sha256": "dd19cd477379648c56f5640f58ac9ab2d89e8374bdd96d023dbd484492fbd480"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/ptr.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/ptr.h",
+      "source_sha256": "9800796027bc27ac328bb612c601cb391db8e5e6803c49200e7e2400f5bad5f5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/parse.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/parse.h",
+      "source_sha256": "eafa4476872ab20c176cf9f93341e57e7e24190a2c3864242c211bc536b97de2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/node.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/node.h",
+      "source_sha256": "a320b6461c1731e6e2b0f31ae22c71087fc39ff9109bffe5c50707df8f0dbfaa"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/iterator.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/iterator.h",
+      "source_sha256": "8f566fd8b92a93544b2d8f2d6035dcbfdd9854f668cb352d99e7664f5b871421"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/impl.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/impl.h",
+      "source_sha256": "a5b3ee60bca81dcb93751639a645bdab4f43cf49292153e53092626889055fe8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/emit.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/emit.h",
+      "source_sha256": "39f35d344ba0502e05449a935c5c9fa3a0179d72b9aa2b75ee964ddd1c4a26af"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/convert.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/convert.h",
+      "source_sha256": "dfe8a5051bf8d8433179bbd51dbf1c655a214075e9c007f066514d1cc3bef442"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/node_ref.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/node_ref.h",
+      "source_sha256": "26fbb939e32d5f4237ab1712eedb3d695820de004cee2a0b2bb2d394b8dbd70b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/node_iterator.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/node_iterator.h",
+      "source_sha256": "6b58c8a26de6af125291979d34fa525f5f2e049f47cf72ab1c100feb9ea1e246"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/node_data.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/node_data.h",
+      "source_sha256": "53419f8984bce1e2d1d5aa15cba420e04918f8c665489dd5b4071793654f30f8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/node.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/node.h",
+      "source_sha256": "01ec0b025faa8bf46f9953f936154efd629151383f20dcd0679b6858b675393f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/memory.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/memory.h",
+      "source_sha256": "41203dbe13e74200dd6d9f93d3a07a99f7870db9b1af864d2acdcb0f68e031b8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/iterator_fwd.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/iterator_fwd.h",
+      "source_sha256": "ce9bf893f38351d5e3e95f5b55a67765c721ba0e4c9f01e38ecba89d64722a6b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/iterator.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/iterator.h",
+      "source_sha256": "ca5e2af6fea3d1b17408d395528e00374bdf4fdcb63b12f303e09fe459eda461"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/node/detail/impl.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/node/detail/impl.h",
+      "source_sha256": "7ead18bfc864986262a4e9000aec9b4acdceaa9162e7741723ccba18e4e4177e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/contrib/graphbuilder.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/contrib/graphbuilder.h",
+      "source_sha256": "17d4206096c9b4f8ccaeddd485f53241c66da8b8e8ce8b2cc0e7b8f424635a8a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/yaml-cpp/include/yaml-cpp/contrib/anchordict.h",
+      "path": "third_party/ramulator/ext/yaml-cpp/include/yaml-cpp/contrib/anchordict.h",
+      "source_sha256": "42ad62a385771109ff84ef3faefd44b753b5f265f0909946202ea3139b3ab071"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/appveyor.yml",
+      "path": "third_party/ramulator/ext/spdlog/appveyor.yml",
+      "source_sha256": "19a26ea9e19b7be130a401664494699624db5d110817df45f51dadb0c0304eac"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/README.md",
+      "path": "third_party/ramulator/ext/spdlog/README.md",
+      "source_sha256": "89696750982a1e7786ed2be721342670434372e281f242862d8c53e486a60242"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/LICENSE",
+      "path": "third_party/ramulator/ext/spdlog/LICENSE",
+      "source_sha256": "a7241a379cb98d37788f82c2fc2e484c3ae85dae881fd3406f0637644850926f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/INSTALL",
+      "path": "third_party/ramulator/ext/spdlog/INSTALL",
+      "source_sha256": "5d732255c005eebea25b887ff1179e1bcb5e85ce023ae44e1f6f63ccf74a5aaa"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/CMakeLists.txt",
+      "path": "third_party/ramulator/ext/spdlog/CMakeLists.txt",
+      "source_sha256": "03c972a5b27012fea3725c2c195b70b107292fbda8148fb3a7b6497eff43cbc4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/.gitignore",
+      "path": "third_party/ramulator/ext/spdlog/.gitignore",
+      "source_sha256": "75e39dddf8fe52590a8e892e366c5163272535340f0a392b503079067eeceda7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/.gitattributes",
+      "path": "third_party/ramulator/ext/spdlog/.gitattributes",
+      "source_sha256": "b7a4124e90b509f1bc8dd160959ecc39fcf725793555b59c27f3dbd6d4fbcd61"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/.clang-tidy",
+      "path": "third_party/ramulator/ext/spdlog/.clang-tidy",
+      "source_sha256": "de065b76c23fb57ad86fb844c2e00140a756da4e32e0888625fbd2f3b71ccc6f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/.clang-format",
+      "path": "third_party/ramulator/ext/spdlog/.clang-format",
+      "source_sha256": "935379e6df6a65d8c2c7d36d1a744aac4f931b9f52b393cbf0a63e715fb10352"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/src/stdout_sinks.cpp",
+      "path": "third_party/ramulator/ext/spdlog/src/stdout_sinks.cpp",
+      "source_sha256": "6cab3895e6133344d0354948fbf1ff7c98e17a025ee2b564a852028979f6e0b0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/src/spdlog.cpp",
+      "path": "third_party/ramulator/ext/spdlog/src/spdlog.cpp",
+      "source_sha256": "b139e06f37508206324f83e647a014e308ae1d272a7cdb1147c3f49295ccb883"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/src/file_sinks.cpp",
+      "path": "third_party/ramulator/ext/spdlog/src/file_sinks.cpp",
+      "source_sha256": "375f61dfb22bb68197bb6a69c05b816fab76e3abbf4be8d3bc22cfc6f6b606aa"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/src/color_sinks.cpp",
+      "path": "third_party/ramulator/ext/spdlog/src/color_sinks.cpp",
+      "source_sha256": "2eab0519944081ae4d916633b7a82387ee1b37c05b11f63eb8cc6d9e3d505c89"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/src/cfg.cpp",
+      "path": "third_party/ramulator/ext/spdlog/src/cfg.cpp",
+      "source_sha256": "e39553c1e4dafda3fcaaceaf243cc529db1d423a9d8c228434597070e62d0269"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/src/bundled_fmtlib_format.cpp",
+      "path": "third_party/ramulator/ext/spdlog/src/bundled_fmtlib_format.cpp",
+      "source_sha256": "c4026a059dd3e7274e50d2e646c8d5cdf7c733ebf22913fe60f6f8e9ca96caaf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/src/async.cpp",
+      "path": "third_party/ramulator/ext/spdlog/src/async.cpp",
+      "source_sha256": "19022af8c91690b1e6193013abe33060b2f5ef0339de68b073b223e17f3ec2bd"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/scripts/format.sh",
+      "path": "third_party/ramulator/ext/spdlog/scripts/format.sh",
+      "source_sha256": "220527e8e62cb5144dd88cbb2e12664ca90539f82f13ba0903c61b788f976cb3"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/scripts/extract_version.py",
+      "path": "third_party/ramulator/ext/spdlog/scripts/extract_version.py",
+      "source_sha256": "3f44c716f1329bb0bb4d76ba89600987dc5993b1382255cb1b490bad9125cd0b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/scripts/ci_setup_clang.sh",
+      "path": "third_party/ramulator/ext/spdlog/scripts/ci_setup_clang.sh",
+      "source_sha256": "8006c30e33ba1005dc4cf387dfc0fe7b0c02200a018e3775697eb2ba1508ad3c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/version.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/version.h",
+      "source_sha256": "ef098dbc5274adf1da4685de584fe5c5a3e071d39e4ee27f86ccabe50b495f95"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/tweakme.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/tweakme.h",
+      "source_sha256": "52c471b7bf42ebc317189d91c46257f50453b074e9a6a870db22d1a28f857b60"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/stopwatch.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/stopwatch.h",
+      "source_sha256": "771f344d04b6b181d6e6702c932d9ac58b27d076a1a272e011ba8b9c51d91dd9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/spdlog.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/spdlog.h",
+      "source_sha256": "83f8d09ff581afc0da3292c1ffc65ce16602929224a83ef9f84d048ad6a49dcf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/spdlog-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/spdlog-inl.h",
+      "source_sha256": "7f8dcabe2ac0c991500ba0cf24695157f7d3ecd8fd731b62c1cb04b875760b55"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/pattern_formatter.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/pattern_formatter.h",
+      "source_sha256": "599522ff91e5e33867a2b5c41235958242a3c74eaa49bf0099605e026324f461"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/pattern_formatter-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/pattern_formatter-inl.h",
+      "source_sha256": "91edf77e45a1c2ba2fc46096487fe4980fb8bfe42ba80168bb4215d203583073"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/logger.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/logger.h",
+      "source_sha256": "b6961edb6b0d928c9c77ea8de475945cbb73d2c9db1a19eaa6cb262c518613c1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/logger-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/logger-inl.h",
+      "source_sha256": "35eb3852025b26a2c55cd285a8a5654302eafddbf58880ac7def8196be176f9b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fwd.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fwd.h",
+      "source_sha256": "2e14e4f2aaa335ccdcbc6f7421f6f69da391a7f845dfcd671641d2c81c347feb"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/formatter.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/formatter.h",
+      "source_sha256": "48524fd1570012c2199c23a5cbd952d514e80ae76ec7075fee6a78cebb9f928e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/common.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/common.h",
+      "source_sha256": "7da36771ba4778f73947b716ee72ed632deff007d3a4622ab33a75fe688f9123"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/common-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/common-inl.h",
+      "source_sha256": "4364e0a6297275f57f53e2cce8485b8265d5b9169af6858d2684e354a9047a3f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/async_logger.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/async_logger.h",
+      "source_sha256": "846c9a216eb4cc2171eaaefc1ce4a51ab5af810b5b6bafc6119e773f647d607e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/async_logger-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/async_logger-inl.h",
+      "source_sha256": "79a395c51d7d2872df97f2cb09f9848e9d5f992eeb6b153c42a6d66ca5e3f06a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/async.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/async.h",
+      "source_sha256": "ce8ebebe5d08a053e061e19c12de3c9838bb71382c01d5777449cf811835f6ed"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/wincolor_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/wincolor_sink.h",
+      "source_sha256": "5a7b92a38a16c895cd77687a427143b5ad8575fe7e22f22defca23d050c9a176"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/wincolor_sink-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/wincolor_sink-inl.h",
+      "source_sha256": "4808b91f2cdeb157cab14ab352f4e559712d20c6c3bb44127599eb04de76ce36"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/win_eventlog_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/win_eventlog_sink.h",
+      "source_sha256": "ce10298279cb71f35048784b67aa79a03d32eade33bc86d5f716c95ea7ea26a6"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/udp_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/udp_sink.h",
+      "source_sha256": "442a8c59d4ae3e423e8765d1edccc9569ab57b90052772fe02ee518bb18a143d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/tcp_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/tcp_sink.h",
+      "source_sha256": "8df9dea85b4a3618459c314730ffd2a5df6c2e56981cb141643397f0b1ea68d1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/systemd_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/systemd_sink.h",
+      "source_sha256": "8b661605189f73886249da3ee0f99e6563a3692879c88684e3434939404f056e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/syslog_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/syslog_sink.h",
+      "source_sha256": "2c6cdc86700f6bb351cdf57bfe62c640c4350a33340c884804c31c121ed199a5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/stdout_sinks.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/stdout_sinks.h",
+      "source_sha256": "2d43d1bc2d9bc1b8012a5e9aeba03d5514a2dba310fbc5e02afe932193094716"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/stdout_sinks-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/stdout_sinks-inl.h",
+      "source_sha256": "02784c406a47ecb3f569d3858042b127557e443cbbf72172e6563be7b4896f1d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/stdout_color_sinks.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/stdout_color_sinks.h",
+      "source_sha256": "afc08e03a7638ffa1758a1e3d4f0d4ad95dc72fc863ea678e0435c6baabf2287"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h",
+      "source_sha256": "a5165ed7e8a5df3d9134b28ac806d5ad9f00a05e51e9326aa1c44f61563fbf14"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/sink.h",
+      "source_sha256": "612eca39db380b957538cd2dc9eec82037aad45b24a0022f8e1773434afc6882"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/sink-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/sink-inl.h",
+      "source_sha256": "8f1eb365f5aa47ada219d562133e66971a7e7ca4221782f85c116c345beb6d25"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/rotating_file_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/rotating_file_sink.h",
+      "source_sha256": "02db42b36b2b4a55504252982f6aedeacceb7242a4de99d548bce4aea45edbc7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h",
+      "source_sha256": "9d04424cbc49352b1691a06873c2009b8869d36a0c0dd1718df537adb778593e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/ringbuffer_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/ringbuffer_sink.h",
+      "source_sha256": "ab327b3e9dff41f8f798aa0341b907ecdcfd2172b2f9b06df01951d389824c19"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/qt_sinks.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/qt_sinks.h",
+      "source_sha256": "ff39935c652e1e51ee9c1ba33959d55dc031629805a5ab03dac9bfd49e1e2b26"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/ostream_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/ostream_sink.h",
+      "source_sha256": "f6da7181d286e9ea066a690b574b68354edf6d3009b7b16239a3afb147eab210"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/null_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/null_sink.h",
+      "source_sha256": "4688c997c8aaff5b626be7b05e98ce70399d6a69997002b81a040f3d848c741e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/msvc_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/msvc_sink.h",
+      "source_sha256": "22d19b759ae1aff9b837f4ac4170e488e128415882553ed29a75524b4ff8c3ce"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/mongo_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/mongo_sink.h",
+      "source_sha256": "b65db467656675307c6b78560d279286379f599ae939da2a8a6f900ff77072b3"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/hourly_file_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/hourly_file_sink.h",
+      "source_sha256": "794d7f67a774e608c340d1f22cc22b26eeb06fab1783e056d6bc32d2f6d9b4c5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/dup_filter_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/dup_filter_sink.h",
+      "source_sha256": "374542fada1386478c40cf2b0c9958c98bf0ec8d4325e7da8851433291f70ff7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/dist_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/dist_sink.h",
+      "source_sha256": "f15585170d19ab05ecae05d5cc7a761b5d07394c1edd7de49a47f72750cb33f9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/daily_file_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/daily_file_sink.h",
+      "source_sha256": "2fc5e53f1f20c8756c7e051c1e23e0c0bfaeef5e9ae5efc2aa6e1740389907ce"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/basic_file_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/basic_file_sink.h",
+      "source_sha256": "1aa556a49d87fb217b40e2ca10a87df4cdd2cef716f4e0216a907d2916895b15"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/basic_file_sink-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/basic_file_sink-inl.h",
+      "source_sha256": "cdbeabb97de19f0aedfdf80f948d431cbe2e9e034fba397a72953d2ea74154d6"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/base_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/base_sink.h",
+      "source_sha256": "9eefa1720fef73c88792a853b1e9240e69150268a7b78a13aab315142159bc80"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/base_sink-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/base_sink-inl.h",
+      "source_sha256": "d472f7c04f5d3cfe1be58c7957e97da03afa43b2e8b4350ac2eb4d894a1105a6"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/ansicolor_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/ansicolor_sink.h",
+      "source_sha256": "db1599443032f920270ce031c9309a8b0ff09db6cfaafc79e669b07832c9ac74"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h",
+      "source_sha256": "30bb129ec39ab72c4c4a50328f7ab56e58df38b339fe6f5d53329740e59911cf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/sinks/android_sink.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/sinks/android_sink.h",
+      "source_sha256": "597987d573b731613ee779f6e3b66e37bb7063e4141e5120418e4566e4bfa964"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/xchar.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/xchar.h",
+      "source_sha256": "c24f55d55439c277d2990b73f207d117ad96b9d10a776f508b82ca7e7bc2c3dc"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/ranges.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/ranges.h",
+      "source_sha256": "005fdbc70388ed7d50a8851b7852377fcd402a7ccfb8524ac298b4788441241e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/ostr.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/ostr.h",
+      "source_sha256": "ebf57add553d132305fd8a34614c36efb3048dbb205227e4d2c2a2009564e15b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/fmt.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/fmt.h",
+      "source_sha256": "a64eed6f71470419d08f1ee7b6cbe8b4cd0fa9759daee078c2f4603a45c0428e"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/compile.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/compile.h",
+      "source_sha256": "9705f3ab618494dcd31ec530b22151a968850ba8616b3f8af24b4227a9f1c1d8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/chrono.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/chrono.h",
+      "source_sha256": "356bc0bdb9adbe7f6e3d1c1657cd9b1f6eff0961daf73307434024756764cea9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bin_to_hex.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bin_to_hex.h",
+      "source_sha256": "7797ecde5318c2810f14dda3ef2098dcfe5f706ec2def064a275fa068e3ebad9"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/xchar.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/xchar.h",
+      "source_sha256": "7fc509910bfa8250e8828a542e030e393b8a024bcf09538b3bba030fdc030958"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/ranges.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/ranges.h",
+      "source_sha256": "779137ff50fed087ab2d39a48ca6e91022b1bb55aa2b316df7a37fa7a2b6945b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/printf.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/printf.h",
+      "source_sha256": "cd925173b9dc61bd2e7b8413d7fb28349188f56ca4d9ebfd2cd6d5041232d3a6"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/ostream.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/ostream.h",
+      "source_sha256": "a8666d8f0711fa6fd97773e7719517f1f45f4bfaedcb0c7f37e1e2f94ef450a1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/os.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/os.h",
+      "source_sha256": "7c54dcaa87927ddd256ac4afef1e279a1bb514a393665315c473a2745fa452dd"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/locale.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/locale.h",
+      "source_sha256": "db88ca5e9b9a24abd92179241926af533b0bb71cf7b56e8677b3617e4015f2af"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/format.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/format.h",
+      "source_sha256": "bf68a9fb87c98e49258cccf6ca3d6e7c9cc1ee358e642cc535ee80579623b724"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/format-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/format-inl.h",
+      "source_sha256": "ba707e9533a864c47261edaac1d32ede71dee91eb793fc05ab0eab0f4210dfc4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/fmt.license.rst",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/fmt.license.rst",
+      "source_sha256": "825c9324e70f8c839c8ba910543dd4a7daee243b86ef960594c11381a19980b8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/core.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/core.h",
+      "source_sha256": "9499dc187c78f4f88c55f878afd375662912439b0cff69c8299a6054350432f7"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/compile.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/compile.h",
+      "source_sha256": "7f684ac58d7369aa3754cb90570bf0ff15ce60cc37908347dbe40244126dc4c0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/color.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/color.h",
+      "source_sha256": "6add41088918c5e2054b0b54c0b5df36c260129fadcd8dc2e21a8d0c0b63a568"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/chrono.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/chrono.h",
+      "source_sha256": "d4439ba39c44b800ecec8b531eb6db9d360bc58b4a544e06d20f33f4d5436684"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/fmt/bundled/args.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/fmt/bundled/args.h",
+      "source_sha256": "f98b552f9d9b994126b7ee17c417736edccb7008532711757141ff5d0229a8b5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/windows_include.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/windows_include.h",
+      "source_sha256": "367900d91844b67b65fcee1f41d025937d6e577f66fedafaf408ed024b807f13"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/udp_client.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/udp_client.h",
+      "source_sha256": "bf210b7eff0106d13a19b4f600d1d0658af17d0ca4cef9da468a948d63e4e87a"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/udp_client-windows.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/udp_client-windows.h",
+      "source_sha256": "8934f2c0697fa30a419f18823f3f85e3dae1aa69395f69becfc5247939db9509"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/thread_pool.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/thread_pool.h",
+      "source_sha256": "3257bf66b3bd1145e4c9e9a62b2d246081301384293f5cc349e550807c967e56"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/thread_pool-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/thread_pool-inl.h",
+      "source_sha256": "84b5db92f7e222420d282cd2877f9aecc7f89dd016dc4a65fc091cf9668a3718"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/tcp_client.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/tcp_client.h",
+      "source_sha256": "75a2554e3eb3f516b2014a1347bf9f4ec2cc255d91a757be400a582d9289be8c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/tcp_client-windows.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/tcp_client-windows.h",
+      "source_sha256": "7898a12171c0e1b7be574f87edf9769393ebf4263ba5c7592ddeeb7d26a929ed"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/synchronous_factory.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/synchronous_factory.h",
+      "source_sha256": "ebae494e50a66fc0f49760d8ab1f5c9cb2cdd47b0620d22950782b89b5f97930"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/registry.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/registry.h",
+      "source_sha256": "a95e596cc3667a50329fd9c0a783837d8f4321bcfc93c3c026cbe86ab82a73db"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/registry-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/registry-inl.h",
+      "source_sha256": "2ec4b92e6452224ee7ad045443e97b6ee3d00112c1fa21b7d87c62973057edff"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/periodic_worker.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/periodic_worker.h",
+      "source_sha256": "2c46cc105d3b426fffa3fd5e4f14337d695e96f33c824c6cc47c3859e197d9d0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/periodic_worker-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/periodic_worker-inl.h",
+      "source_sha256": "6051a2a06de524b0e0319bb06cfe0bdc559627e874d48fc14846a452bfe4f4a2"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/os.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/os.h",
+      "source_sha256": "79df0b580a19f48795be9d331e5069c513e6b85cbec7a1b0d64182d011b45c23"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/os-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/os-inl.h",
+      "source_sha256": "bbf700d5c5f4c80536207cc9c2cb0eda2ea3fea1d58bdfe2225a32623b524bb1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/null_mutex.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/null_mutex.h",
+      "source_sha256": "02edd271e232b7a69c0e37aab61246fcb4b31c1d43f1a20b5c2572ba7b730956"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/mpmc_blocking_q.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/mpmc_blocking_q.h",
+      "source_sha256": "cf947727bb383d520319e9fa28656ae730b03888b9d921181e7d242ea4d60983"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/log_msg_buffer.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/log_msg_buffer.h",
+      "source_sha256": "ee20038a4d8870893276e6dcacf72801511881a6cab65a58febc9f2d79f038f8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/log_msg_buffer-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/log_msg_buffer-inl.h",
+      "source_sha256": "9814ad90de51a780ac4ed8b37b899cecf68842b967d8b7255036785be0635b9b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/log_msg.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/log_msg.h",
+      "source_sha256": "eda416f5e6d69541f0087c0d3dc3a2b19e06bb6378e044d3d106e0ae2289dcc4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/log_msg-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/log_msg-inl.h",
+      "source_sha256": "cc56ddea61fbf6d4ba6ef06aa649bd28875e3c7e632afa9f332d04b2ee59e147"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/fmt_helper.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/fmt_helper.h",
+      "source_sha256": "a0a7aaefb6beb48fd1d00abd8326e78853a7fbb1ef676b755a3f07392127eb3f"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/file_helper.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/file_helper.h",
+      "source_sha256": "3db0b23d10028a682b06a9196ee7bd619bb16ad2f1f3808584e08f7e7c3472ad"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/file_helper-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/file_helper-inl.h",
+      "source_sha256": "394b490a3f01037514815d6b7466cd9c0f13d4c8d06521fdf1c55334bb38c613"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/console_globals.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/console_globals.h",
+      "source_sha256": "eced1eda8e8abe003fb70b29be5df42e7b706b60d5292c1f3e842f3c888a5d66"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/circular_q.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/circular_q.h",
+      "source_sha256": "2ee52f1fc702d53ba978eea7394df0cfe9d0e1cfdb2da256ce919b14543d3d91"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/backtracer.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/backtracer.h",
+      "source_sha256": "2e57a28770e254eb950fd3ae168a2da77fb5701cb9f42dc9ff39ca2325c90351"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/details/backtracer-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/details/backtracer-inl.h",
+      "source_sha256": "995e7c9f4d51c6452b97436ceed784353d863935b7a77472a203b238638041f1"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/cfg/helpers.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/cfg/helpers.h",
+      "source_sha256": "efa9c281f8e526b11d7b3d0f88c797cc13b9f0656f66dc6e14e0ec9391b30971"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/cfg/helpers-inl.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/cfg/helpers-inl.h",
+      "source_sha256": "d7a002b455cbb78a6f2dcc4adb3e8c12ee82c534d3bb20f0d4b60914a781e6c5"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/cfg/env.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/cfg/env.h",
+      "source_sha256": "d6cc51d0e1da7220cde60d9d13d668162bb7ca0a3ceee8cc964cbaabbd52502c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/include/spdlog/cfg/argv.h",
+      "path": "third_party/ramulator/ext/spdlog/include/spdlog/cfg/argv.h",
+      "source_sha256": "71836983a61d2ccf1e574535761b9138a9e849e8f6e515798f8196295f93e3b8"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/cmake/version.rc.in",
+      "path": "third_party/ramulator/ext/spdlog/cmake/version.rc.in",
+      "source_sha256": "19f63b85700122bcae8e32c1bd44e8c0bef9a5696443d1f26f504cbe6dc7067d"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/cmake/utils.cmake",
+      "path": "third_party/ramulator/ext/spdlog/cmake/utils.cmake",
+      "source_sha256": "7a3021b708072d1b8a7135c802db509d7198dd2de4f47b877cc7af95750b30a4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/cmake/spdlogConfig.cmake.in",
+      "path": "third_party/ramulator/ext/spdlog/cmake/spdlogConfig.cmake.in",
+      "source_sha256": "e29707bb0c6e208c7998cc4cc23eeafcad9362fb322b8b9c985ad9f1b0bc2c9b"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/cmake/spdlogCPack.cmake",
+      "path": "third_party/ramulator/ext/spdlog/cmake/spdlogCPack.cmake",
+      "source_sha256": "e2482deb8541c34211f7e37d18faad0366b58ea319e9d1f8f2ab8fd1854ebcf6"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/cmake/spdlog.pc.in",
+      "path": "third_party/ramulator/ext/spdlog/cmake/spdlog.pc.in",
+      "source_sha256": "479c0d19341a6903ae042944b2e6a062c92ca9685fcdad362d1dec82ac6dc568"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/cmake/pch.h.in",
+      "path": "third_party/ramulator/ext/spdlog/cmake/pch.h.in",
+      "source_sha256": "25a92bce12fea10d544f1192d059b307e9e50f3735350a9a0428792c341df364"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/spdlog/cmake/ide.cmake",
+      "path": "third_party/ramulator/ext/spdlog/cmake/ide.cmake",
+      "source_sha256": "2f7b9b2a4637a699020402908b6cc0de76f159a07f8f8304d7f44ec6be08d2cf"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/conanfile.py",
+      "path": "third_party/ramulator/ext/argparse/conanfile.py",
+      "source_sha256": "15ab8ddeebc4a7ed4bd24f1f34073f05ac246ef6beec5e76023665c2d411d2cc"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/clang_format.bash",
+      "path": "third_party/ramulator/ext/argparse/clang_format.bash",
+      "source_sha256": "8f1a0acd471a795e55d1770835ae64b0f476231c12306ed732d7f371033f2f91"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/README.md",
+      "path": "third_party/ramulator/ext/argparse/README.md",
+      "source_sha256": "bae61f6c60cfae39cda71de4aa16c4e2474f1dadf41dbd01e6c26a69ab655404"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/LICENSE",
+      "path": "third_party/ramulator/ext/argparse/LICENSE",
+      "source_sha256": "a3a9e0dc669644b703773777503f73abff8dffacc4e697d8535be930766fa771"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/CONTRIBUTING.md",
+      "path": "third_party/ramulator/ext/argparse/CONTRIBUTING.md",
+      "source_sha256": "6cd00f24697866017735271cca79becaab04da97fd8dcfe8e0aea09b418e54bd"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/CMakeLists.txt",
+      "path": "third_party/ramulator/ext/argparse/CMakeLists.txt",
+      "source_sha256": "0aba50b546951219b8a5faf9b5bb79df337be52b97e1f35530f65981bd6ff3be"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/.travis.yml",
+      "path": "third_party/ramulator/ext/argparse/.travis.yml",
+      "source_sha256": "4b6e82571a77fbf4bef52ecffb98af49f64770b62b1423819d93c0608261609c"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/.gitignore",
+      "path": "third_party/ramulator/ext/argparse/.gitignore",
+      "source_sha256": "5b181e69024adb7f45c84d2bcc23c9d38615ee4fb020ab85214ca76bbc780222"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/.clang-tidy",
+      "path": "third_party/ramulator/ext/argparse/.clang-tidy",
+      "source_sha256": "e9eb02db48f5801d0daad7b56cb52bd79e63ecaf2d272869545eb64aebf77bc0"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/.clang-format",
+      "path": "third_party/ramulator/ext/argparse/.clang-format",
+      "source_sha256": "3174ac1aec26912844e4d10bc49d1b4baa820b9ea4f85d175f1a5c5fd4a971a4"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/packaging/pkgconfig.pc.in",
+      "path": "third_party/ramulator/ext/argparse/packaging/pkgconfig.pc.in",
+      "source_sha256": "96e93db627efece4af47bd8c68de99862da4fc3f5af4b2ee27ab3b2df7d88630"
+    },
+    {
+      "source": "third_party/attacc_simulator/ramulator2/ext/argparse/include/argparse/argparse.hpp",
+      "path": "third_party/ramulator/ext/argparse/include/argparse/argparse.hpp",
+      "source_sha256": "4ed054a8e9a454bf00b7261e1e758092373c5d77bdb4c648b0598a4cb9b0a619"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/HardFloat_localFuncs.vi",
+      "path": "third_party/hardfloat/source/HardFloat_localFuncs.vi",
+      "source_sha256": "e6e8d53f362dc2c9fe14c9b0edbc73bc6367d8899276b3384e947a17029b5d50"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/fNToRecFN.v",
+      "path": "third_party/hardfloat/source/fNToRecFN.v",
+      "source_sha256": "7aca940370a4ecf1b52774cec62e90252d090f20a4acd5f577cf88565266426c"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/recFNToIN.v",
+      "path": "third_party/hardfloat/source/recFNToIN.v",
+      "source_sha256": "881c05985ee57e1006988661236708c74269352957d94f65c88696c1a7928877"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/HardFloat_primitives.v",
+      "path": "third_party/hardfloat/source/HardFloat_primitives.v",
+      "source_sha256": "5a1d0823a066395eda8191b3a556c414e6120b8085ff43ce383980d84af47f9f"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/addRecFN.v",
+      "path": "third_party/hardfloat/source/addRecFN.v",
+      "source_sha256": "15fb5387ab0deff63670ed144189e9f263c61ffc909d06697974c49d11ba5dc3"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/mulAddRecFN.v",
+      "path": "third_party/hardfloat/source/mulAddRecFN.v",
+      "source_sha256": "268c38c2433e66337900a4ad67daf393ffa6f4aaa43552728bc786a83604008b"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/divSqrtRecFN_small.v",
+      "path": "third_party/hardfloat/source/divSqrtRecFN_small.v",
+      "source_sha256": "f76feb5557faa8bcb2868e51bf2ce7d1297be46dd67ae51d509b1ae91066a522"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/compareRecFN.v",
+      "path": "third_party/hardfloat/source/compareRecFN.v",
+      "source_sha256": "b88d572db1cea8d5275aeb1db7dcdfabad74281fdc29378940fd4b20f7326d69"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/HardFloat_consts.vi",
+      "path": "third_party/hardfloat/source/HardFloat_consts.vi",
+      "source_sha256": "53d4c22ee61b9b81bc763330959327914d8e1952e15f3f66361d1a4e34e2802f"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/iNToRecFN.v",
+      "path": "third_party/hardfloat/source/iNToRecFN.v",
+      "source_sha256": "bb7a5cd239ebc2f95a7eb9047534f1e530f148f5d017dd664c3f252bccb25f1c"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/mulRecFN.v",
+      "path": "third_party/hardfloat/source/mulRecFN.v",
+      "source_sha256": "5a6a263dcde9f38f0fabef87ceb41e1bdff63c46d151c7c65e404467354bee43"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/recFNToRecFN.v",
+      "path": "third_party/hardfloat/source/recFNToRecFN.v",
+      "source_sha256": "3ec9a39057e64d7fb42893c12f0e19b36af7226669ba53671d6abe19db0722fc"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/recFNToFN.v",
+      "path": "third_party/hardfloat/source/recFNToFN.v",
+      "source_sha256": "62d42a8f004f00f9a688c5e45302ceff22148313b3602840e5d05a13e9391e96"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/HardFloat_rawFN.v",
+      "path": "third_party/hardfloat/source/HardFloat_rawFN.v",
+      "source_sha256": "353cad0b733c601f5c2449dc75f1ddefa34dc5c2466ac82540302303899fe355"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/isSigNaNRecFN.v",
+      "path": "third_party/hardfloat/source/isSigNaNRecFN.v",
+      "source_sha256": "77e37250ec9c18c4484c23eda48bfcf7df8dec1a3d3b2c1a1e5804386a25de8b"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/8086-SSE/HardFloat_specialize.v",
+      "path": "third_party/hardfloat/source/8086-SSE/HardFloat_specialize.v",
+      "source_sha256": "5978254ad3781165833345616e4c1c3447cac4a1d8fb73689c2def15f71f52e3"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/8086-SSE/HardFloat_specialize.vi",
+      "path": "third_party/hardfloat/source/8086-SSE/HardFloat_specialize.vi",
+      "source_sha256": "a6a6a3b7b86f7cc2e32e147dc9f6943422a611fd6da362f37e18950002a571c4"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/RISCV/HardFloat_specialize.v",
+      "path": "third_party/hardfloat/source/RISCV/HardFloat_specialize.v",
+      "source_sha256": "de4442606d2c51bf30c0476d289fa7f955273c8bb58c1484f0e745b76bc8d316"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/RISCV/HardFloat_specialize.vi",
+      "path": "third_party/hardfloat/source/RISCV/HardFloat_specialize.vi",
+      "source_sha256": "c252f7e1638f63838f66e6f469bf86fdec0e4396f6b0be69172623a26519307c"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/ARM-VFPv2/HardFloat_specialize.v",
+      "path": "third_party/hardfloat/source/ARM-VFPv2/HardFloat_specialize.v",
+      "source_sha256": "49d9a51a4e8b899df33247b778df5881ee6f9e38a98efafbbfaa7e0c1e0035f9"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/source/ARM-VFPv2/HardFloat_specialize.vi",
+      "path": "third_party/hardfloat/source/ARM-VFPv2/HardFloat_specialize.vi",
+      "source_sha256": "1710f1ec1a2c737fd490a723101e45dde6bf4735217996dba6e4be279c6c5ed9"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/COPYING.txt",
+      "path": "third_party/hardfloat/COPYING.txt",
+      "source_sha256": "c791a6bdcef33feddaa0cb7ab99c233fb63d93bb385f06d58f9f1b9a8182b418"
+    },
+    {
+      "source": "third_party/hardfloat/HardFloat-1/README.txt",
+      "path": "third_party/hardfloat/README.upstream.txt",
+      "source_sha256": "27cb3cc402c14dbfa9fa7755f3aa03116919b8876134f60bf4c6b6f3dc12e3ca"
+    },
+    {
+      "source": "results/phase11/selector_scores.bin",
+      "path": "data/replay/scores_bf16.bin",
+      "source_sha256": "4297bdaf0faf2083b0bec51f747270ce9fa792b65a421ba062988a4f819a229e"
+    },
+    {
+      "source": "results/phase11/selector_expected.bin",
+      "path": "data/replay/topk_indices_i32.bin",
+      "source_sha256": "56eb2dc911c0640546d57d3979aff79632072ec9aa545929f7f03835a6393a77"
+    },
+    {
+      "source": "results/phase18/schedules/D1.txt",
+      "path": "data/calibration/schedules/D1.txt",
+      "source_sha256": "37b0e7d9f14854dfa3505bb97e34165a59c8ed3d9ed647dbd8802c49c7442482"
+    },
+    {
+      "source": "results/phase18/schedules/D2.txt",
+      "path": "data/calibration/schedules/D2.txt",
+      "source_sha256": "77d88efb629e3ce25b13c7397b7c89da711a04a562ea737f1f2827fb375ffc83"
+    },
+    {
+      "source": "results/phase18/schedules/D4.txt",
+      "path": "data/calibration/schedules/D4.txt",
+      "source_sha256": "68b1c65e78add8cf050576aceff513f7e65ab1d385b9bb08c2bad2b5d46ec198"
+    },
+    {
+      "source": "results/phase18/schedules/D8.txt",
+      "path": "data/calibration/schedules/D8.txt",
+      "source_sha256": "bb805e39ff5c3fc6d67bd8135b25c357b7eff56603f30975bc8bab2f33d65828"
+    },
+    {
+      "source": "results/phase18/schedules/D16.txt",
+      "path": "data/calibration/schedules/D16.txt",
+      "source_sha256": "d7d9d07ef8524a46798ab0fa970a1448afc4713b6a8364712395fb87cbd3a981"
+    },
+    {
+      "source": "results/phase18/schedules/D32.txt",
+      "path": "data/calibration/schedules/D32.txt",
+      "source_sha256": "d2a0b677fe373659dd2af72185f0c9fa68e5827c9688281717b6d8f3acaa2e2a"
+    },
+    {
+      "source": "results/phase18/tile_schedules.json",
+      "path": "data/calibration/tile_schedules.json",
+      "source_sha256": "4e045e91932330ad0786c9a1c5e963d45f1869830a17e84cca91d7fe120fe519"
+    },
+    {
+      "source": "results/phase18/port_rtl.csv",
+      "path": "data/calibration/port_rtl.csv",
+      "source_sha256": "7cd4e7737562e4d4e4d1026ac2360419bb06ac5921b0ab8d54d885d8515d375d"
+    },
+    {
+      "source": "results/phase18/port_rtl.json",
+      "path": "data/calibration/port_rtl.json",
+      "source_sha256": "547f8228ff80d89061af87f8daf781e08272e4f3aa65acaf6f45e7702e4501bf"
+    },
+    {
+      "source": "results/phase18/hardware_summary.csv",
+      "path": "data/calibration/hardware_summary.csv",
+      "source_sha256": "75f89482c018b7864439c360a13a32466e77116b9491ce7c7e4bd2d80315f9d8"
+    },
+    {
+      "source": "results/phase18/area_breakdown.csv",
+      "path": "data/calibration/area_breakdown.csv",
+      "source_sha256": "4f406b58a21cf05250afd7de07969949e42cafb01dd3378bb27fe424357f4a7e"
+    },
+    {
+      "source": "results/phase18/completion.json",
+      "path": "results/reference/refresh_dense/completion.json",
+      "source_sha256": "71df58ead95e86f81363cac956fde4e3bcd1ff2f513a6d1b80cf27b246702ead"
+    },
+    {
+      "source": "results/phase18/source_manifest.json",
+      "path": "results/reference/refresh_dense/source_manifest.json",
+      "source_sha256": "9bbba436bfdf4ec35ef932c2509a9bcc60980359d03b967b21367e68a40819e1"
+    },
+    {
+      "source": "results/phase18/report_ko.md",
+      "source_sha256": "e7aa0ca6d23b2a839d334086f062ba65e589b49d5a720904e115f72ec897336c",
+      "disposition": "Separated historical report; preserved in the local history archive",
+      "original_import_path": "results/reference/refresh_dense/report_ko.md"
+    },
+    {
+      "source": "results/phase18/validation.json",
+      "path": "results/reference/refresh_dense/validation.json",
+      "source_sha256": "31b448e07e3343b36eef4fd7f8e270a635d05940ad697e2de3d2a73d1423fbd0"
+    },
+    {
+      "source": "results/phase18/measurement_changes.csv",
+      "path": "results/reference/refresh_dense/measurement_changes.csv",
+      "source_sha256": "bc9b3dc66bc197d9e21763c622cccff6c22a69f10e7ecbc6c0f5f6b8277af65b"
+    },
+    {
+      "source": "results/phase18/command_trace_audit.csv",
+      "path": "results/reference/refresh_dense/command_trace_audit.csv",
+      "source_sha256": "79cda6b5dd7f700fc5b9ee6ab838978a3e2d742d0d5065dfb4e966183b6ed461"
+    },
+    {
+      "source": "results/phase18/energy_breakdown.csv",
+      "path": "results/reference/refresh_dense/energy_breakdown.csv",
+      "source_sha256": "79796999ed8139036e33fb72f651dc5f73eb0e8e21a4bed347b1ae966050a2ca"
+    },
+    {
+      "source": "results/phase18/sram_access.csv",
+      "path": "results/reference/refresh_dense/sram_access.csv",
+      "source_sha256": "47968bc55840ee7117e9bc0fed3569157b8b8ac879406cacf8de86393356297f"
+    },
+    {
+      "source": "results/phase18/compute_operations.csv",
+      "path": "results/reference/refresh_dense/compute_operations.csv",
+      "source_sha256": "eac45b89cf2639b6b81f2064bc6e255626d9ff75718a69d20396bd78d29fe730"
+    },
+    {
+      "source": "results/phase18/dram_access.csv",
+      "path": "results/reference/refresh_dense/dram_access.csv",
+      "source_sha256": "cf4cf6238a5f2bd53a3063a885a316a3ae2f3b73495973b27edbc974b39d9405"
+    },
+    {
+      "source": "results/phase18/architecture_comparison.csv",
+      "path": "results/reference/refresh_dense/architecture_comparison.csv",
+      "source_sha256": "792376dceac9d1512de71e8f9305e55c10e5da34603aadfbe18c7891eeaa5301"
+    },
+    {
+      "source": "results/phase18/area_breakdown.csv",
+      "path": "results/reference/refresh_dense/area_breakdown.csv",
+      "source_sha256": "4f406b58a21cf05250afd7de07969949e42cafb01dd3378bb27fe424357f4a7e"
+    },
+    {
+      "source": "results/phase18/hardware_summary.csv",
+      "path": "results/reference/refresh_dense/hardware_summary.csv",
+      "source_sha256": "75f89482c018b7864439c360a13a32466e77116b9491ce7c7e4bd2d80315f9d8"
+    },
+    {
+      "source": "results/phase18/system_complete.json",
+      "path": "results/reference/refresh_dense/system_complete.json",
+      "source_sha256": "8df33efaaa47e4251eb1301654ecfc85d2a18f3601e124f24a88f4d5b81ed64c"
+    },
+    {
+      "source": "results/phase18/refresh_unit.jsonl.command.json",
+      "path": "results/reference/refresh_dense/refresh_unit.jsonl.command.json",
+      "source_sha256": "c65b32a899cc21b154c08ec5afe71c9df5eaa412e5f115f126ad51eaca839de1"
+    },
+    {
+      "source": "results/phase18/calibration_complete.json",
+      "path": "results/reference/refresh_dense/calibration_complete.json",
+      "source_sha256": "8fcde0568a8bfaa7acf24e87d9aee5fb8b1def37c1e176e366b58c6fc28bf711"
+    },
+    {
+      "source": "results/phase18/tile_schedules.json",
+      "path": "results/reference/refresh_dense/tile_schedules.json",
+      "source_sha256": "4e045e91932330ad0786c9a1c5e963d45f1869830a17e84cca91d7fe120fe519"
+    },
+    {
+      "source": "results/phase18/port_rtl.json",
+      "path": "results/reference/refresh_dense/port_rtl.json",
+      "source_sha256": "547f8228ff80d89061af87f8daf781e08272e4f3aa65acaf6f45e7702e4501bf"
+    },
+    {
+      "source": "results/phase18/port_rtl.csv",
+      "path": "results/reference/refresh_dense/port_rtl.csv",
+      "source_sha256": "7cd4e7737562e4d4e4d1026ac2360419bb06ac5921b0ab8d54d885d8515d375d"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D32_full_no_refresh/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D32_full_no_refresh/metrics.json",
+      "source_sha256": "60037d6012d0134d635377ab444ec9c9f1fb86ac5886bfd37a399bb975e18218"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D16_full_no_refresh/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D16_full_no_refresh/metrics.json",
+      "source_sha256": "0ca3e670d4bb1c96607d24d6cbf71c8935bce42f9118614d63df539657b6a469"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D8_full_no_refresh/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D8_full_no_refresh/metrics.json",
+      "source_sha256": "f061f47f20039f332a41e814103218a391f295d164de91c5eae1c37969d37a4e"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D32_score/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D32_score/metrics.json",
+      "source_sha256": "d0e1c0708f7a890be529cca5a39336a4008292c797218ae92960af89c4ebb626"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D16_score/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D16_score/metrics.json",
+      "source_sha256": "8a6fcd3501bc7d49ae84690792b30ad168237a5147a9cce5347b1b1cec3f043a"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D8_score/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D8_score/metrics.json",
+      "source_sha256": "b47f375537de99a32365be92e6e9f4ccc64bf4d94a36d42699a5a7290d9644b2"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D4_score/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D4_score/metrics.json",
+      "source_sha256": "223634848bb964142b3b1659f19a6648daf738a4b2fe6cc5d1e134f8310dfa53"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D2_score/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D2_score/metrics.json",
+      "source_sha256": "812556cebc0c17d982640a1b4ad6f2596f3591181b9a538da655281743587a6a"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D1_score/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D1_score/metrics.json",
+      "source_sha256": "9286cbbe5dc044bada72002e9e79f0145a780632e3811eca55a98036f3b9e836"
+    },
+    {
+      "source": "results/phase18/raw_runs/n131072_D32_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n131072_D32_full/metrics.json",
+      "source_sha256": "685b87d7cf9b4a06dd10297aae49e9d6901282de21a732ba316d976f2be7ccf0"
+    },
+    {
+      "source": "results/phase18/raw_runs/n131072_D16_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n131072_D16_full/metrics.json",
+      "source_sha256": "0a8eebb74498e085f19b3952f7464b08ca7bda8de7c6ee363d963c1158b63db6"
+    },
+    {
+      "source": "results/phase18/raw_runs/n131072_D8_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n131072_D8_full/metrics.json",
+      "source_sha256": "73c1210273e0c9712d76f5d3782dd20f69e40ce9c7053497435443733fcbc12f"
+    },
+    {
+      "source": "results/phase18/raw_runs/n131072_D4_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n131072_D4_full/metrics.json",
+      "source_sha256": "70ac2c8a7abc2e4e44f8939d9fd220631efab924cb211142d074e31e53593992"
+    },
+    {
+      "source": "results/phase18/raw_runs/n131072_D2_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n131072_D2_full/metrics.json",
+      "source_sha256": "6e915fd0b236448badbfaa83a94c2324a539c6a0f177ececdad9e6d1d4ead3b6"
+    },
+    {
+      "source": "results/phase18/raw_runs/n131072_D1_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n131072_D1_full/metrics.json",
+      "source_sha256": "b3dda212149b404f690769ca41c7d8ce9c5d0ebecb6d4bc87d9b1bb545139b7d"
+    },
+    {
+      "source": "results/phase18/raw_runs/n65536_D32_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n65536_D32_full/metrics.json",
+      "source_sha256": "2e543533c0ad2fb0f2e20d17f93e78616260a304e4a56c28cd7e0ef3814ecac6"
+    },
+    {
+      "source": "results/phase18/raw_runs/n65536_D16_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n65536_D16_full/metrics.json",
+      "source_sha256": "1b1219250fa37a4809431a552bf03176dddcf90a49357dfc9793aa480620a754"
+    },
+    {
+      "source": "results/phase18/raw_runs/n65536_D8_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n65536_D8_full/metrics.json",
+      "source_sha256": "a546d006ed2f626af4ab7966be1369c6891bbb265780e49bfab675dfc8a346dd"
+    },
+    {
+      "source": "results/phase18/raw_runs/n65536_D4_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n65536_D4_full/metrics.json",
+      "source_sha256": "cebf29e2ad466637fa68b921959aa612ca4c5da5da15a9e7be1ad3b72d89652a"
+    },
+    {
+      "source": "results/phase18/raw_runs/n65536_D2_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n65536_D2_full/metrics.json",
+      "source_sha256": "ae4ab525033fa540bbb5e363fd0264f7e0127eb85011a1241107dc8ef1308434"
+    },
+    {
+      "source": "results/phase18/raw_runs/n65536_D1_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n65536_D1_full/metrics.json",
+      "source_sha256": "3dc69d60031972fa5db71a39a4f47c9dbf0c46d21fd9b9795034e9625ba54b71"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D32_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D32_full/metrics.json",
+      "source_sha256": "16e505684d952b08d395f4d31b908cef6788d17a952af4e8d61195c91d63e2ac"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D16_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D16_full/metrics.json",
+      "source_sha256": "234821e4111d252c077a72a2b30ee8c291085fb5f78143d6a0131488c51ced5c"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D8_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D8_full/metrics.json",
+      "source_sha256": "b9791dcb5bcfcf573bd61b5f15c15d727f3878a490fefbbb230a6687989661de"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D2_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D2_full/metrics.json",
+      "source_sha256": "4a7a8ab4a0cefb6b09fc7353c37ce46bce0a77c26b5c5051d2030280ba04322c"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D4_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D4_full/metrics.json",
+      "source_sha256": "b4216f8911696d589bb2be22ce08c16fdc1640246855b318f3b2b635949d7ed7"
+    },
+    {
+      "source": "results/phase18/raw_runs/n32768_D1_full/metrics.json",
+      "path": "results/reference/refresh_dense/metrics/n32768_D1_full/metrics.json",
+      "source_sha256": "dd50d928fa0f7fe7877bab04477ca0982016b51e91b94effb3559c0f4946032b"
+    },
+    {
+      "source": "results/phase18/refresh_unit.jsonl",
+      "path": "results/reference/refresh_dense/refresh_unit.jsonl",
+      "source_sha256": "b5b3046762abcf1f74d684139d9d25fabe29f79e08406db668be3ede78abc14f"
+    },
+    {
+      "source": "results/phase18/rtl/D32_3/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D32_3/score_stats.json",
+      "source_sha256": "a98ad6fe4028c73d1a0dfe196f1f281080469c5d37e7e030763a07a1033326be"
+    },
+    {
+      "source": "results/phase18/rtl/D32_2/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D32_2/score_stats.json",
+      "source_sha256": "a76b6e44b1c7d7b050875ba6fa07e7532f285c36b89916b9aed4822654548dcb"
+    },
+    {
+      "source": "results/phase18/rtl/D32_1/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D32_1/score_stats.json",
+      "source_sha256": "de2892343f3fa2cb49717dd52965983dd6dd93b494545c4f05806e78c911722a"
+    },
+    {
+      "source": "results/phase18/rtl/D32_0/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D32_0/score_stats.json",
+      "source_sha256": "f4c4bf978966b4d7327668ddd4e691e8ae42d95633d7707507b8b007611d5ed7"
+    },
+    {
+      "source": "results/phase18/rtl/D16_3/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D16_3/score_stats.json",
+      "source_sha256": "c7219afda734ef6ffb1ca4e98635513c0f561247ad2591ab13ed57ff383b5bd6"
+    },
+    {
+      "source": "results/phase18/rtl/D16_2/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D16_2/score_stats.json",
+      "source_sha256": "53415bb2bcfe3020cc4d46ea0c50847831a75ba1bcf4b39189eaddb22a35be95"
+    },
+    {
+      "source": "results/phase18/rtl/D16_1/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D16_1/score_stats.json",
+      "source_sha256": "ddc22874cf3564edbba2f4ae4ca1ac180511e52d1aaf5d22717a506bcaf88f30"
+    },
+    {
+      "source": "results/phase18/rtl/D16_0/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D16_0/score_stats.json",
+      "source_sha256": "9868634a39cac9f88162a7e1175b533f0db86eece49d9675ecbcb798bb1ce083"
+    },
+    {
+      "source": "results/phase18/rtl/D8_3/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D8_3/score_stats.json",
+      "source_sha256": "1fc747f0ce4b1c925cfd151f6aa83857f62b5d63ca81ed16848aa09a2c03a385"
+    },
+    {
+      "source": "results/phase18/rtl/D8_2/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D8_2/score_stats.json",
+      "source_sha256": "3d087710a77893c779a18588cd0325358b32f4a818b3efc311585b0e46dddd0b"
+    },
+    {
+      "source": "results/phase18/rtl/D8_1/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D8_1/score_stats.json",
+      "source_sha256": "60d5b3908efa939bcd0889df5f08cc0d54aef666319aa2c2b92844fdac01512d"
+    },
+    {
+      "source": "results/phase18/rtl/D8_0/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D8_0/score_stats.json",
+      "source_sha256": "5a03f405424ec1048fda982a78cef48f8b80a33ba5a2da4976c29a97b8f15ca3"
+    },
+    {
+      "source": "results/phase18/rtl/D4_3/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D4_3/score_stats.json",
+      "source_sha256": "d01e30dfc24b208360c3e5f8c9a23ae9cddcfb062b8b6c44e71a828fc342c307"
+    },
+    {
+      "source": "results/phase18/rtl/D4_2/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D4_2/score_stats.json",
+      "source_sha256": "505ea10484ea977c3b55f46ec867e9dc5f77873037b69d843edeee7b4e5f9a3a"
+    },
+    {
+      "source": "results/phase18/rtl/D4_1/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D4_1/score_stats.json",
+      "source_sha256": "df77c8894509ff2495aa75faca21f6fbe72cc306b4c88a2377bbc04829a17d58"
+    },
+    {
+      "source": "results/phase18/rtl/D4_0/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D4_0/score_stats.json",
+      "source_sha256": "5c4cf4509443b2fd066a41ec4efc02c842d213a0820aefb4a3ec01cea70bde09"
+    },
+    {
+      "source": "results/phase18/rtl/D2_3/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D2_3/score_stats.json",
+      "source_sha256": "6844fc484347b9079a41da2b84a6ac2b07873035a66fe93c8c8b839c8aa2b5db"
+    },
+    {
+      "source": "results/phase18/rtl/D2_2/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D2_2/score_stats.json",
+      "source_sha256": "85fb5d91104c023d057be9d70ae5a9a3dabfc1ba4124ae2f2df8ed6f69f3a31e"
+    },
+    {
+      "source": "results/phase18/rtl/D2_1/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D2_1/score_stats.json",
+      "source_sha256": "0a375ae63ae505e39c77d9fbe60322e52f41964567a6e12538ef5305c07e076a"
+    },
+    {
+      "source": "results/phase18/rtl/D2_0/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D2_0/score_stats.json",
+      "source_sha256": "8d5aacf12d4369608938a4e8d02b5a5b27fec3cae6f94ca6810f612f98b67aaf"
+    },
+    {
+      "source": "results/phase18/rtl/D1_3/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D1_3/score_stats.json",
+      "source_sha256": "25d35a8b3da788d4b6c06300fb39e8af6458abb7f99f6896812ab78fca87f77e"
+    },
+    {
+      "source": "results/phase18/rtl/D1_2/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D1_2/score_stats.json",
+      "source_sha256": "b22b96cdf33f629f0dda028c037b2784251658308ef951de40fc9e708f46277c"
+    },
+    {
+      "source": "results/phase18/rtl/D1_1/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D1_1/score_stats.json",
+      "source_sha256": "07f42da2fe2277ecaffa9eb29097ff930914411aa566f61edfc6301728c1e76c"
+    },
+    {
+      "source": "results/phase18/rtl/D1_0/score_stats.json",
+      "path": "results/reference/refresh_dense/rtl_stats/D1_0/score_stats.json",
+      "source_sha256": "0eebf18c4ef780ee61580dd048ce522a1015135d1d91cbc9869dd7ca0db270ba"
+    },
+    {
+      "source": "results/phase18/synthesis/D16/metrics.json",
+      "path": "results/reference/refresh_dense/synthesis/D16/metrics.json",
+      "source_sha256": "b325bc7e1d009bc0cbbff1a93a8cc8bf09fa997b1692ac51ef560c996cd13795"
+    },
+    {
+      "source": "results/phase18/synthesis/D16/timing.json",
+      "path": "results/reference/refresh_dense/synthesis/D16/timing.json",
+      "source_sha256": "dbdc53506b2ae5bdba93cb82f7d4f453daf72f91e2e68e856b8bfd501e600580"
+    },
+    {
+      "source": "results/phase18/synthesis/D16/abc.constr",
+      "path": "results/reference/refresh_dense/synthesis/D16/abc.constr",
+      "source_sha256": "9a1e8c9c6a23ea8834f60f7ec807331ccdfe150cf0a9b8f025cc5c607c04b845"
+    },
+    {
+      "source": "results/phase18/synthesis/D32/metrics.json",
+      "path": "results/reference/refresh_dense/synthesis/D32/metrics.json",
+      "source_sha256": "e82894b83dbcb2ce7e8bf737d2fa22b393d436cf7941203f30d438fb1b2c8adc"
+    },
+    {
+      "source": "results/phase18/synthesis/D32/timing.json",
+      "path": "results/reference/refresh_dense/synthesis/D32/timing.json",
+      "source_sha256": "74d9421b294a13da9ad7fe2b0b6c9e72294fd2a9ae4a4df3b376414aab395790"
+    },
+    {
+      "source": "results/phase18/synthesis/D32/abc.constr",
+      "path": "results/reference/refresh_dense/synthesis/D32/abc.constr",
+      "source_sha256": "9a1e8c9c6a23ea8834f60f7ec807331ccdfe150cf0a9b8f025cc5c607c04b845"
+    },
+    {
+      "source": "results/phase19/source_manifest.json",
+      "path": "results/reference/no_refresh_diagnostic/source_manifest.json",
+      "source_sha256": "e2d2b4fb9355ef8de43641af1a1972034b9df17a262e24792d9d3d34796b3746"
+    },
+    {
+      "source": "results/phase19/report_ko.md",
+      "source_sha256": "d70a7fc7fec4af5049136605e020aac51f1b6744135d3cbe6720f1016c50a712",
+      "disposition": "Separated historical report; preserved in the local history archive",
+      "original_import_path": "results/reference/no_refresh_diagnostic/report_ko.md"
+    },
+    {
+      "source": "results/phase19/validation.json",
+      "path": "results/reference/no_refresh_diagnostic/validation.json",
+      "source_sha256": "714282479b28020c2cb2516f5ab546f82308178f12eefab555b74dd727bb9c9e"
+    },
+    {
+      "source": "results/phase19/command_trace_audit.csv",
+      "path": "results/reference/no_refresh_diagnostic/command_trace_audit.csv",
+      "source_sha256": "555d3e0620c82377f330a27c1e9112a53c34e7412edaf23cf275a7acc6f8b6f1"
+    },
+    {
+      "source": "results/phase19/comparison.csv",
+      "path": "results/reference/no_refresh_diagnostic/comparison.csv",
+      "source_sha256": "9401d692677bf999fa4b72429f4480a23181273f594586c12819e5c80f2ed8a8"
+    },
+    {
+      "source": "results/phase19/run_complete.json",
+      "path": "results/reference/no_refresh_diagnostic/run_complete.json",
+      "source_sha256": "72eb5e12328563c33e285feab9d01763d70e37a32f99677899b59dde51b31d0c"
+    },
+    {
+      "source": "results/phase19/raw_runs/POP_E24P32/metrics.json",
+      "path": "results/reference/no_refresh_diagnostic/metrics/POP_E24P32/metrics.json",
+      "source_sha256": "c2bfe7ef7f632fce9a74e11edf81ee6b84a7df17a0153b9f28c71b16332d9020"
+    },
+    {
+      "source": "results/phase19/raw_runs/POP_E4P4/metrics.json",
+      "path": "results/reference/no_refresh_diagnostic/metrics/POP_E4P4/metrics.json",
+      "source_sha256": "8d935b377cc3b11efd33a333c8bf9460cad3f48329e424d981bd94463a7c5276"
+    },
+    {
+      "source": "results/phase19/raw_runs/D4/metrics.json",
+      "path": "results/reference/no_refresh_diagnostic/metrics/D4/metrics.json",
+      "source_sha256": "360ab213c42d0a662795b0279d7ad6608c35149843c9e77366fef8dbddade078"
+    },
+    {
+      "source": "results/phase19/raw_runs/D2/metrics.json",
+      "path": "results/reference/no_refresh_diagnostic/metrics/D2/metrics.json",
+      "source_sha256": "40a07cdf6e620e27c5b6c74cfe55023706ea65aba9c728c9ec81f3bae102381d"
+    },
+    {
+      "source": "results/phase19/raw_runs/D1/metrics.json",
+      "path": "results/reference/no_refresh_diagnostic/metrics/D1/metrics.json",
+      "source_sha256": "0178eaa3ba724051b11e106bb1259c98859ddc3041319e8ee3b0c741c4c24d88"
+    }
+  ]
+}

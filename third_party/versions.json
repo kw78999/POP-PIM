@@ -1,0 +1,36 @@
+{
+  "attacc": {
+    "url": "https://github.com/scale-snu/attacc_simulator",
+    "commit": "c60005143a6b492d7ef83231723386478b59a506"
+  },
+  "ramulator": {
+    "url": "https://github.com/CMU-SAFARI/ramulator2",
+    "commit": "b7c70275f04126c647edb989270cc429776955d1",
+    "local_modifications": "Vendored source is authoritative; tracked diff and source hashes are supplied."
+  },
+  "dependencies": {
+    "yaml-cpp": {
+      "commit": "0579ae3d976091d7d664aa9d2527e0d0cff25763"
+    },
+    "spdlog": {
+      "commit": "ad0e89cbfb4d0c1ce4d097e134eb7be67baebb36"
+    },
+    "argparse": {
+      "commit": "997da9255618311d1fcb0135ce86022729d1f1cb"
+    }
+  },
+  "hardfloat": {
+    "release": "1",
+    "license": "COPYING.txt"
+  },
+  "nangate45": {
+    "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/bf3f9b344bf7d9d999f199778a722833bccbd33c/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib",
+    "sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+    "included": false
+  },
+  "cacti": {
+    "url": "https://github.com/HewlettPackard/cacti",
+    "revision": "1ffd8dfb10303d306ecd8d215320aea07651e878",
+    "included": "Retained estimator inputs/outputs only; executable/source not vendored"
+  }
+}

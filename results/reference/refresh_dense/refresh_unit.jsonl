@@ -1,0 +1,3 @@
+{"timing_boundaries_passed":true,"nRP":19,"nRFC":456}
+{"implementation":"HBM3","other_pseudochannel_row_preserved":false,"PREA_to_REF_tRP_enforced":false,"tRFC_enforced":true,"expected_result_confirmed":true}
+{"implementation":"Phase17HBM3","other_pseudochannel_row_preserved":true,"PREA_to_REF_tRP_enforced":true,"tRFC_enforced":true,"expected_result_confirmed":true}

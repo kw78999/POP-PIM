@@ -1,0 +1,55 @@
+Frontend:
+  refresh_drain: true
+  impl: "Phase13Common"
+  output: "<OUT>"
+  design: "A2-S1"
+  mode: "full"
+  replicas: 1
+  coupled_release: false
+  context_length: 32768
+  budget: 6144
+  ii: 22.0
+  latency: 43
+  selector_engines: 4
+  selector_ports: 4
+  score_file: "<REPLAY>/gs6144/scores.bin"
+  expected_file: "<REPLAY>/gs6144/expected.bin"
+  offload: true
+  link_GBs: 0.5
+  startup_ps: 5000000
+  sync_ps: 2000000
+  external_topk_ps: 200000000
+  output_lanes: 4
+  output_period_ps: 4000
+  lane_depth: 16
+  dma_depth: 16
+  vkeep_file: "<REPLAY>/masks/vkeep_gs6144_0.002_exact.bin"
+  index_return_bytes: 196608
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+  DRAM:
+    impl: Phase20HBM3
+    org:
+      preset: HBM3_8Gb_2R
+      channel: 1
+    timing:
+      preset: HBM3_5.2Gbps
+  Controller:
+    impl: PopPIMHBM3
+    refresh_policy: pim_pb
+    refresh_postpone: 8
+    refresh_pullin: 8
+    refresh_headroom: 2
+    refresh_round_rule: true
+    refresh_drain_low: 5
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: No
+    plugins:
+    - ControllerPlugin:
+        impl: Phase13Commands
+        trace_file: "<OUT>/command_trace.bin"
+  AddrMapper:
+    impl: HBM3-Custom

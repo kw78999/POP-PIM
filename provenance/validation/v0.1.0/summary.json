@@ -1,0 +1,62 @@
+{
+  "prepared_at_utc": "2026-10-30T14:51:11.397680+00:00",
+  "python": "3.11.13 (main, Jun  4 2025, 08:57:30) [GCC 9.4.0]",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.31",
+  "tools": {
+    "compiler": "g++-10 (Ubuntu 10.5.0-1ubuntu1~20.04) 10.5.0",
+    "verilator": "Verilator 4.028 2020-02-06 rev v4.026-92-g890cecc1",
+    "yosys": "Yosys 0.9 (git sha1 1979e0b)",
+    "opensta": "2.0.17",
+    "cmake": "cmake version 3.16.3"
+  },
+  "cpu_tests_passed": 120,
+  "numpy2_bf16_tests_passed": 7,
+  "fresh_dense_designs": [
+    "D1",
+    "D2",
+    "D4",
+    "D8"
+  ],
+  "dense_rtl_outputs_verified": 53248,
+  "pop_rtl_outputs_verified": 12288,
+  "simulations_completed": 6,
+  "raw_trace_audits_passed": 6,
+  "dense_retained_scalar_metrics_exactly_reproduced": true,
+  "host_runtime_seconds": {
+    "D1": 66.37648943590466,
+    "D2": 52.104338235920295,
+    "D4": 34.97265908296686,
+    "D8": 36.5775181039935,
+    "POP_E4P4": 16.993425371940248,
+    "POP_E24P32": 14.989960675011389
+  },
+  "original_import_source_hashes_preserved": 564,
+  "d8_ppa_rerun": {
+    "cell_area_um2": 52117.64600000187,
+    "retained_core_area_um2": 52776.26200000279,
+    "relative_change_percent": -1.2479398408339004,
+    "scope": "Port-wrapper mapping validation; retained comparison-area model unchanged"
+  },
+  "not_rerun": [
+    "D16/D32 supplementary cases",
+    "Native long-context LLM quality",
+    "CACTI source fetch/build branch; existing pinned local executable was used"
+  ],
+  "github_ci_run": false,
+  "unresolved_maintainer_metadata": [
+    "Project license",
+    "Final publication authors/title/DOI",
+    "GitHub owner/repository URL"
+  ],
+  "cacti_configurations_rerun": 32,
+  "cacti_dimensions_match_retained": true,
+  "pop_bank_ppa_rerun": {
+    "cell_area_um2": 134344.3639999609,
+    "retained_bank_cell_area_um2": 134674.20399996213,
+    "relative_change_percent": -0.24491698499390369,
+    "slack_125MHz_ns": 5.330049,
+    "timing_pass": true,
+    "scope": "Fresh integrated bank flow validation; comparison uses consistently retained components"
+  }
+}

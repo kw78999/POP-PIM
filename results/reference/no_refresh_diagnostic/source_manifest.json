@@ -1,0 +1,7 @@
+{
+  "experiments/phase19/run.py": "e7bf4ba63881ac4dc35cab570effc24592d64003d8e5defd7fee9355faf29017",
+  "experiments/phase19/analyze.py": "dcdf523f1a7b70b652ef00a0f324f8242bb121211dee2be3f625204a27d9921b",
+  "results/phase19/comparison.csv": "9401d692677bf999fa4b72429f4480a23181273f594586c12819e5c80f2ed8a8",
+  "results/phase19/validation.json": "714282479b28020c2cb2516f5ab546f82308178f12eefab555b74dd727bb9c9e",
+  "results/phase19/all_runs.json": "c9d272bc329c9113581f5fe7750318d1d7ed3dd62ad3640957c1800cbd916f72"
+}

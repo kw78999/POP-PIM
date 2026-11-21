@@ -1,0 +1,19 @@
+{
+  "pim_mhz": 500,
+  "popcount_lanes": 8,
+  "bitwise_lanes": 8,
+  "fp_units": 4,
+  "score_pipeline_cycles": 8,
+  "bank_read_GBs": 8,
+  "host_link_GBs": 32,
+  "internal_link_GBs": 256,
+  "local_selector_mhz": 500,
+  "near_selector_mhz": 500,
+  "near_compare_lanes": 32,
+  "host_gpu_mhz": 1000,
+  "host_gpu_compare_lanes": 256,
+  "sync_ns": 500,
+  "pilot_per_bank": 8,
+  "index_bytes": 4,
+  "kv_element_bytes": 2
+}

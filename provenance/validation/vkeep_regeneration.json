@@ -1,0 +1,46 @@
+{
+ "masks": {
+  "base_0.002_exact": {
+   "kept_v_tokens": 25748,
+   "identical_to_release": true
+  },
+  "base_0.002_hw": {
+   "kept_v_tokens": 27785,
+   "identical_to_release": true
+  },
+  "gs4096_0.005_exact": {
+   "kept_v_tokens": 12006,
+   "identical_to_release": true
+  },
+  "gs4096_0.005_hw": {
+   "kept_v_tokens": 12564,
+   "identical_to_release": true
+  },
+  "gs6144_0.002_exact": {
+   "kept_v_tokens": 26398,
+   "identical_to_release": true
+  },
+  "gs6144_0.002_hw": {
+   "kept_v_tokens": 27857,
+   "identical_to_release": true
+  }
+ },
+ "vectors": {
+  "gs4096_kv0.bin": true,
+  "gs4096_kv1.bin": true,
+  "gs4096_kv2.bin": true,
+  "gs4096_kv3.bin": true,
+  "gs4096_kv4.bin": true,
+  "gs4096_kv5.bin": true,
+  "gs4096_kv6.bin": true,
+  "gs4096_kv7.bin": true,
+  "gs6144_kv0.bin": true,
+  "gs6144_kv1.bin": true,
+  "gs6144_kv2.bin": true,
+  "gs6144_kv3.bin": true,
+  "gs6144_kv4.bin": true,
+  "gs6144_kv5.bin": true,
+  "gs6144_kv6.bin": true,
+  "gs6144_kv7.bin": true
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "binaries": {
+    "gqa_test": "cf93e9064ad228ae60b32c1003213590863e04102f8927162f08fbf9a00e5e8d",
+    "refresh_single_bank": "f2cdc778167aeb8172821cafbf4016a5fca5336fa4c2545bc014ac798682a4b7",
+    "refresh_test": "704aba9d623fbed367c7d19af46831971ebce22138e7cc02f06ee55a4f66d3c6",
+    "poppim_pop": "a8565002552f1e801b405cf30e634acf4ac3c1fb3a88337c2bf83b750fe01165",
+    "poppim_dense": "e5c5390cd7cc93837bfb581489b4515d79c431b996c831f9c9e19eec41e5d882"
+  },
+  "ramulator_sha256": "189d2abfdbc1798389de64aaae6d49e5bc24ec54227eeceeb82001ffb47b56dd",
+  "source_sha256": {
+    "simulator/README.md": "f6529670231aa7b13565f0d79c33b76f21a9dcc8a2e36a39bfee0a25cb2194d6",
+    "simulator/tests/refresh_single_bank.cpp": "dccf1a18d2b46b04f761c14578f5f4d092cdfcaa5b7e068740cbcd8237e7cb06",
+    "simulator/tests/refresh.cpp": "4b286650fa559ecb367717b4e7103c4df3948381f1905c3750144702b39f057b",
+    "simulator/tests/gqa.cpp": "35fef6becd86fe362b2095834ac8c76564c55ce0adc8ddaa60e2dbd92d4ffee7",
+    "simulator/pop/frontend.cpp": "17c6ff255a60d3e75b1c03ddb240aac88acb9519a36fe76be6cd6c3bcdbc848b",
+    "simulator/dense/frontend.cpp": "b6c35865d5faf02be9f400887b7459c1bd8c110277b1f7c5ee391c66b232d9a4",
+    "simulator/common/controller.cpp": "61e0c10314341d9693d23bd76c67c39cc1e745a2d575d687baa82bbc286ae61a",
+    "simulator/common/pop_control.inc": "769ecd47cc901ed76ca10c9e8183287bc1c4035bbc314fa8699a015d9e63bb20",
+    "simulator/common/resources.h": "86b2a220dc73262db1c6e5557a06d833b5073077ccdafcc150c4314624736959",
+    "simulator/common/hbm3_scoped.cpp": "8dc4a4d22d8aa902be6615d6962bf8979216fc3a9be932607b0ff5f846478f57",
+    "simulator/common/offload.inc": "7cc1640f4c3fef8909b45b7e76a2b902bf251ea8e594db909558dc6f06e16417",
+    "simulator/common/bf16_core.h": "948cbb5ada3856f0d3cdf88d3f2584d2ddcbf156004dcfbeae936325b868aca7",
+    "simulator/common/gqa_hw.h": "d7c5fc76c64e00d2b7dd6a775fcff1f4acf329edcda846f42683891a2d694963",
+    "simulator/common/diagnostics.h": "6e7b038e58707e4383a435b811d0cd05520ba5b536e11cc73629d21e9666db23",
+    "simulator/common/selector_cluster_sram.h": "a98bc3e013f3e5d3885ab2b9fc3d544d28dd75d391ff3dc53da89e33b2f4cd06"
+  }
+}

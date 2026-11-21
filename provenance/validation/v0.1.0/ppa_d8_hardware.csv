@@ -1,0 +1,2 @@
+design,mac_instances,contexts,total_cell_area_um2,datapath_area_um2,fma_pipeline_register_area_um2,register_area_um2,control_mux_area_um2,flip_flops,fmax_pass_MHz,fmax_fail_MHz,slack_125_ns,timing_pass_125,within_A2_area_budget,blackboxes,library_sha256,evidence
+D8,8,2,52117.64600000187,19781.887999999173,4051.711999999961,18712.035999999825,13623.721999999532,4138,397.74169921875,398.1201171875,5.488143,True,False,0,8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1,Actual RTL Synthesis / Pre-layout STA

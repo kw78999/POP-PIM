@@ -1,0 +1,182 @@
+{
+  "status": "Passed",
+  "count": 44,
+  "checks": [
+    {
+      "name": "D1 raw hashes",
+      "passed": true
+    },
+    {
+      "name": "D1 common geometry and clocks",
+      "passed": true
+    },
+    {
+      "name": "D1 no refresh commands or priority wait",
+      "passed": true
+    },
+    {
+      "name": "D1 read row backend conservation",
+      "passed": true
+    },
+    {
+      "name": "D1 exact finite tile and dense work",
+      "passed": true
+    },
+    {
+      "name": "D1 all command trace counts and ordering",
+      "passed": true
+    },
+    {
+      "name": "D2 raw hashes",
+      "passed": true
+    },
+    {
+      "name": "D2 common geometry and clocks",
+      "passed": true
+    },
+    {
+      "name": "D2 no refresh commands or priority wait",
+      "passed": true
+    },
+    {
+      "name": "D2 read row backend conservation",
+      "passed": true
+    },
+    {
+      "name": "D2 exact finite tile and dense work",
+      "passed": true
+    },
+    {
+      "name": "D2 all command trace counts and ordering",
+      "passed": true
+    },
+    {
+      "name": "D4 raw hashes",
+      "passed": true
+    },
+    {
+      "name": "D4 common geometry and clocks",
+      "passed": true
+    },
+    {
+      "name": "D4 no refresh commands or priority wait",
+      "passed": true
+    },
+    {
+      "name": "D4 read row backend conservation",
+      "passed": true
+    },
+    {
+      "name": "D4 exact finite tile and dense work",
+      "passed": true
+    },
+    {
+      "name": "D4 all command trace counts and ordering",
+      "passed": true
+    },
+    {
+      "name": "D8 raw hashes",
+      "passed": true
+    },
+    {
+      "name": "D8 common geometry and clocks",
+      "passed": true
+    },
+    {
+      "name": "D8 no refresh commands or priority wait",
+      "passed": true
+    },
+    {
+      "name": "D8 read row backend conservation",
+      "passed": true
+    },
+    {
+      "name": "D8 exact finite tile and dense work",
+      "passed": true
+    },
+    {
+      "name": "D8 all command trace counts and ordering",
+      "passed": true
+    },
+    {
+      "name": "D16 raw hashes",
+      "passed": true
+    },
+    {
+      "name": "D16 common geometry and clocks",
+      "passed": true
+    },
+    {
+      "name": "D16 no refresh commands or priority wait",
+      "passed": true
+    },
+    {
+      "name": "D16 read row backend conservation",
+      "passed": true
+    },
+    {
+      "name": "D16 exact finite tile and dense work",
+      "passed": true
+    },
+    {
+      "name": "D16 all command trace counts and ordering",
+      "passed": true
+    },
+    {
+      "name": "POP_E4P4 raw hashes",
+      "passed": true
+    },
+    {
+      "name": "POP_E4P4 common geometry and clocks",
+      "passed": true
+    },
+    {
+      "name": "POP_E4P4 no refresh commands or priority wait",
+      "passed": true
+    },
+    {
+      "name": "POP_E4P4 read row backend conservation",
+      "passed": true
+    },
+    {
+      "name": "POP_E4P4 live GQA routing and exact selector conservation",
+      "passed": true
+    },
+    {
+      "name": "POP_E4P4 selected KV traffic and dependency",
+      "passed": true
+    },
+    {
+      "name": "POP_E4P4 all command trace counts and ordering",
+      "passed": true
+    },
+    {
+      "name": "POP_E24P32 raw hashes",
+      "passed": true
+    },
+    {
+      "name": "POP_E24P32 common geometry and clocks",
+      "passed": true
+    },
+    {
+      "name": "POP_E24P32 no refresh commands or priority wait",
+      "passed": true
+    },
+    {
+      "name": "POP_E24P32 read row backend conservation",
+      "passed": true
+    },
+    {
+      "name": "POP_E24P32 live GQA routing and exact selector conservation",
+      "passed": true
+    },
+    {
+      "name": "POP_E24P32 selected KV traffic and dependency",
+      "passed": true
+    },
+    {
+      "name": "POP_E24P32 all command trace counts and ordering",
+      "passed": true
+    }
+  ]
+}

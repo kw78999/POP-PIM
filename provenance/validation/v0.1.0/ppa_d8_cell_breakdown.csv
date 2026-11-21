@@ -1,0 +1,8 @@
+design,category,area_um2,flip_flops,cells,evidence
+D8,Operand mux and control combinational,13623.721999999532,0,10916,Actual RTL Synthesis
+D8,Partial accumulation and reduction registers,4630.527999999953,1024,1024,Actual RTL Synthesis
+D8,Controller scoreboard and tag registers,6326.277999999928,1399,1399,Actual RTL Synthesis
+D8,Output and metadata registers,2459.967999999984,544,544,Actual RTL Synthesis
+D8,Input beat buffer registers,1243.5500000000015,275,275,Actual RTL Synthesis
+D8,FMA datapath,19781.887999999173,0,15392,Actual RTL Synthesis
+D8,FMA pipeline registers,4051.711999999961,896,896,Actual RTL Synthesis

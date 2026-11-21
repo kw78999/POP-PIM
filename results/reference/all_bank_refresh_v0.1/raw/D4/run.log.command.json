@@ -1,0 +1,8 @@
+{
+  "command": [
+    "/workspace/PopPIM/build/bin/poppim_dense",
+    "-f",
+    "/workspace/PopPIM/outputs/main_refresh/D4/config.yaml"
+  ],
+  "seconds": 34.97265908296686
+}
