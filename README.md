@@ -1,5 +1,7 @@
 # POP-PIM
 
+<img width="929" height="383" alt="image" src="https://github.com/user-attachments/assets/f590a806-2f4f-4b9c-9ca3-f12154e8351d" />
+
 **Byte-frugal near-memory sparse attention over a standard memory channel.** POP-PIM scores the KV cache next to the
 HBM banks with popcount-based retrieval metadata, selects the tokens that matter, and reads only their
 original-precision K/V for exact attention. POP-PIM-S and POP-PIM-Q add three dataflow changes that cut the bytes
